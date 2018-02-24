@@ -12,7 +12,13 @@ public class RoomAssigner : MonoBehaviour
     public float houseLength;
     public GameObject[] roomList;
 
-   
+    //For Aliah
+    public Color ObjectColor;
+
+    private Color currentColor;
+    private Material materialColored;
+    //End ALIAH
+
     // Use this for initialization
     void Start()
     {
@@ -47,7 +53,17 @@ public class RoomAssigner : MonoBehaviour
                     {
                         break;
                     }
-                    
+                    for(int index = 0; index < numbers[roomCount]; index++){
+                        GameObject temp = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                        //For Aliah
+                        temp.AddComponent<Renderer>();
+                        temp.AddComponent<ColorChanger>();
+                        //End Aliah
+                        temp.transform.SetParent(roomList[numbers[roomCount]].transform);
+                        temp.transform.position = roomList[numbers[roomCount]].transform.position;
+                        temp.AddComponent<Rigidbody>();
+                        temp.GetComponent<Rigidbody>().mass = 100;
+                    }
                     roomList[numbers[roomCount]].transform.position = startingPos + new Vector3(col * 10, 0, -row * 10);
                     roomCount++;
                 }
