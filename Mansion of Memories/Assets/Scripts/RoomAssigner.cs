@@ -10,15 +10,15 @@ public class RoomAssigner : MonoBehaviour
     public int numberOfRooms;
     public float houseWidth;
     public float houseLength;
-    public GameObject[] roomList;
+    private GameObject[] roomList;
 
-   
+
     // Use this for initialization
     void Start()
     {
         int roomCount = 0;
         Vector3 startingPos = new Vector3(0, 0, 0);
-        if (houseWidth % 2 == 0&&houseLength%2==0)
+        if (houseWidth % 2 == 0 && houseLength%2==0)
         {
             startingPos = new Vector3(-10 * houseWidth/2 + 5, 0, 10 *houseLength/2 - 5);
         }
@@ -47,7 +47,16 @@ public class RoomAssigner : MonoBehaviour
                     {
                         break;
                     }
-                    
+                    for(int index = 0; index < numbers[roomCount]; index++){
+                        GameObject temp = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                        //For Aliah
+                        temp.AddComponent<ColorChanger>();
+                        //End Aliah
+                        temp.transform.SetParent(roomList[numbers[roomCount]].transform);
+                        temp.transform.position = roomList[numbers[roomCount]].transform.position;
+                        temp.AddComponent<Rigidbody>();
+                        temp.GetComponent<Rigidbody>().mass = 100000;
+                    }
                     roomList[numbers[roomCount]].transform.position = startingPos + new Vector3(col * 10, 0, -row * 10);
                     roomCount++;
                 }
