@@ -46,8 +46,8 @@ public class SteamVR_Teleporter : MonoBehaviour
 
 	void DoClick(object sender, ClickedEventArgs e)
 	{
-		if (teleportOnClick&& Time.fixedTime -timeLastTeleported >3)
-		{
+		if (teleportOnClick) //&& Time.fixedTime -timeLastTeleported >3
+        {
 			// First get the current Transform of the the reference space (i.e. the Play Area, e.g. CameraRig prefab)
 			var t = reference;
 			if (t == null)
