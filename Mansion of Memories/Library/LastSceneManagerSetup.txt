@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Master Bedroom (Thomas).unity
+- path: Assets/Scenes/Library Room (Matt).unity
   isLoaded: 1
   isActive: 1
