@@ -45,7 +45,11 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 122
+=======
+  controlID: 9
+>>>>>>> Matt
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +68,13 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 756
+<<<<<<< HEAD
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> Matt
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -89,8 +98,13 @@ MonoBehaviour:
     y: 0
     width: 261
     height: 457
+<<<<<<< HEAD
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> Matt
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -209,7 +223,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 33
+=======
+  controlID: 10
+>>>>>>> Matt
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +251,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 34
+=======
+  controlID: 11
+>>>>>>> Matt
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,7 +359,11 @@ MonoBehaviour:
     of Memories
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 303}
+=======
+    scrollPos: {x: 0, y: 559}
+>>>>>>> Matt
     m_SelectedIDs: a6480000
     m_LastClickedID: 18598
     m_ExpandedIDs: 000000005a2800005a2a0000262c00002a3100003a350000a035000060370000ca3a0000d03c000000ca9a3bffffff7f
@@ -572,7 +598,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0025722529, y: 0.9952702, z: -0.093142025, w: -0.027483206}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: -0.0025722529, y: 0.9952702, z: -0.093142025, w: -0.027483204}
+=======
+    m_Value: {x: -0.0025722529, y: 0.9952702, z: -0.093142025, w: -0.027483206}
+>>>>>>> Matt
   m_Size:
     m_Target: 6.6592455
     speed: 2
