@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Four-Way Wide Hallway (Thomas).unity
-  isLoaded: 1
-  isActive: 1
+- path: Assets/Scenes/Library Room (Matt).unity
+  isLoaded: 0
+  isActive: 0
