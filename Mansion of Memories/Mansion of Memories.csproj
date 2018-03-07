@@ -294,6 +294,7 @@
     <Compile Include="Assets\FPSHorrorEssentials\Scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\RoomList.cs" />
     <Compile Include="Assets\Scripts\ColorChanger.cs" />
+    <Compile Include="Assets\Scripts\FlickerLights.cs" />
     <Compile Include="Assets\Scripts\RoomAssigner.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
