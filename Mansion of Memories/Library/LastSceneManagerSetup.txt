@@ -1,5 +1,6 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/Foyer.unity
 =======
 <<<<<<< HEAD
@@ -12,5 +13,8 @@ sceneSetups:
 =======
 >>>>>>> a4cd58f6f43dad1288ef41659cf9630ffc4b09ae
 >>>>>>> ae40e78f977e5e1634d439f294e70acbc8ae26f7
+=======
+- path: Assets/Scenes/William.unity
+>>>>>>> William
   isLoaded: 1
   isActive: 1
