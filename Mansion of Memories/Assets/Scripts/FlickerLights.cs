@@ -13,14 +13,14 @@ public class FlickerLights : MonoBehaviour {
 	}
 
 	void Update () {
-        if(Random.value > 0.9)
-        {
-            if (lightObject.enabled == true)
+            if (Random.value > 0.9)
             {
-                lightObject.enabled = false;
+                if (lightObject.enabled == true)
+                {
+                    lightObject.enabled = false;
+                }
+                else
+                    lightObject.enabled = true;
             }
-            else
-                lightObject.enabled = true;
-        }
 	}
 }
