@@ -6,27 +6,18 @@ using UnityEngine;
 public class AssignRooms : MonoBehaviour
 {
     public int numberOfRooms;
-    public GameObject[] roomList;
+    //public GameObject[] roomList;
     public GameObject[] placementPoints;
-    public GameObject roomPrefab;
+    public List<GameObject> rooms;
 
     private void Awake()
     {
 
-        //roomList = GameObject.FindGameObjectsWithTag("Room");
         placementPoints = GameObject.FindGameObjectsWithTag("Placeable");
-
-        //Instantiate(library[Random.Range(0, library.Length)], new Vector3(x, y, z), Quaternion.identity);
-
-        //GameObject room = Instantiate<GameObject>(roomPrefab);
-
-        //room.transform.position = placementPoints[0].transform.position;
 
         for(int i=0; i<placementPoints.Length;i++) {
             Vector3 position = new Vector3(placementPoints[i].transform.position.x, placementPoints[i].transform.position.y, placementPoints[i].transform.position.z);
             int rotation = (int)(placementPoints[i].transform.eulerAngles.y / 90);
-            print(position);
-            print(rotation);
 
             switch (rotation)
             {
@@ -53,7 +44,9 @@ public class AssignRooms : MonoBehaviour
 
             }
 
-            Instantiate(roomList[Random.Range(0, roomList.Length)], position, placementPoints[i].transform.rotation);
+            int index = Random.Range(0, rooms.Count);
+            Instantiate(rooms[index], position, placementPoints[i].transform.rotation);
+            rooms.RemoveAt(index);
         }
         
 
