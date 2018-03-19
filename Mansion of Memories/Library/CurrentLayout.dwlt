@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 129
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 59
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 35
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,20 +327,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/SteamVR/Prefabs
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/SteamVR/Prefabs
+  - Assets/Prefabs
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Thomas\Documents\Github\MansionOfMemories\Mansion of
     Memories
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 110}
-    m_SelectedIDs: be3c0000
-    m_LastClickedID: 15550
-    m_ExpandedIDs: 00000000b4320000d433000016340000943400008636000068380000d83900006c3b0000a03d0000243f0000f23f000054400000be490000024a0000a8510000b0570000f47c0000f67c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 304f0000
+    m_LastClickedID: 20272
+    m_ExpandedIDs: 00000000842a0000b82b0000962c0000ca2e0000e830000078320000323400008636000022380000fe38000068390000184400006a4400009c4c000046530000aa7a0000ac7a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -368,7 +368,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b4320000d4330000943400008636000068380000d83900006c3b0000a03d0000243f0000f23f000054400000be490000024a0000a8510000b0570000f47c0000f67c0000
+    m_ExpandedIDs: 00000000842a0000b82b0000062c0000962c0000ca2e0000e830000078320000323400008636000022380000fe38000068390000184400006a4400009c4c000046530000aa7a0000ac7a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,7 +488,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 98c6ffffd4caffff02e7ffff00000000e2810000
+    m_ExpandedIDs: 98fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -572,7 +572,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.04332109, y: -0.90850496, z: 0.09740871, w: 0.40405518}
     speed: 2
-    m_Value: {x: 0.043320943, y: -0.9085018, z: 0.09740838, w: 0.40405378}
+    m_Value: {x: -0.043320943, y: 0.9085018, z: -0.09740838, w: -0.40405378}
   m_Size:
     m_Target: 6.8812127
     speed: 2
