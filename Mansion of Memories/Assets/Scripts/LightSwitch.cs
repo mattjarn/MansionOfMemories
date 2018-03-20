@@ -8,16 +8,19 @@ public class LightSwitch : MonoBehaviour {
     AudioSource lightOffSound;
 
     public bool lighted;
+    public bool playerActivated;
 
     public Light[] lights;
     private Light[] flickeringLights;
     private Light[] notFlickering;
+    private Light[] delayedFlickering;
     private int fLights;
     private int nLights;
+    private int dLights;
 
     private VRTK_InteractUse vrObj;
 
-  
+
 
     private void Awake()
     {
@@ -28,8 +31,10 @@ public class LightSwitch : MonoBehaviour {
 
         flickeringLights = new Light[lights.Length];
         notFlickering = new Light[lights.Length];
+        delayedFlickering = new Light[lights.Length];
         fLights = 0;
         nLights = 0;
+        dLights = 0;
         for (int i = 0; i < lights.Length; i++)
         {
             lights[i].enabled = false;
@@ -38,6 +43,11 @@ public class LightSwitch : MonoBehaviour {
                 flickeringLights[fLights] = lights[i];
                 fLights++;
             }
+            else if (lights[i].gameObject.tag == "DelayedFlicker")
+            {
+                delayedFlickering[dLights] = lights[i];
+                dLights++;
+            }
             else
             {
                 notFlickering[nLights] = lights[i];
@@ -45,6 +55,7 @@ public class LightSwitch : MonoBehaviour {
             }
         }
         lighted = false;
+        playerActivated = false;
     }
 
     private void OnTriggerStay(Collider other)
@@ -52,6 +63,22 @@ public class LightSwitch : MonoBehaviour {
         if (this.vrObj.IsUseButtonPressed() == true)
         {
             lighted = !lighted;
+            playerActivated = !playerActivated;
+            for (int i = 0; i < dLights; i++)
+            {
+                if (delayedFlickering[i] != null)
+                {
+                    delayedFlickering[i].enabled = true;
+                }
+
+                if (lighted == false)
+                {
+                    if (delayedFlickering[i] != null)
+                    {
+                        delayedFlickering[i].enabled = false;
+                    }
+                }
+            }
         }
     }
 
@@ -76,6 +103,13 @@ public class LightSwitch : MonoBehaviour {
                     }
                 }
             }
+            for (int j = 0; j < notFlickering.Length; j++)
+            {
+                if (notFlickering[j] != null)
+                {
+                    notFlickering[j].enabled = true;
+                }
+            }
         }
         else
         {
@@ -84,6 +118,14 @@ public class LightSwitch : MonoBehaviour {
                 if (flickeringLights[i] != null)
                 {
                     flickeringLights[i].enabled = false;
+                }
+            }
+
+            for (int j = 0; j < notFlickering.Length; j++)
+            {
+                if (notFlickering[j] != null)
+                {
+                    notFlickering[j].enabled = false;
                 }
             }
         }

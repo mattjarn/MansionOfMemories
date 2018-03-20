@@ -296,6 +296,7 @@
     <Compile Include="Assets\Scripts\AssignRooms.cs" />
     <Compile Include="Assets\Scripts\ColorChanger.cs" />
     <Compile Include="Assets\Scripts\LightSwitch.cs" />
+    <Compile Include="Assets\Scripts\PlayerFlicker.cs" />
     <Compile Include="Assets\Scripts\RoomAssigner.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />

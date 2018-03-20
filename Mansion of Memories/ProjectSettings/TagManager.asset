@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Flicker
+  - lightbulb
+  - Placeable
+  - DelayedFlicker
   layers:
   - Default
   - TransparentFX
