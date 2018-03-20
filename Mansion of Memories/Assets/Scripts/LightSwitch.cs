@@ -15,13 +15,13 @@ public class LightSwitch : MonoBehaviour {
     private int fLights;
     private int nLights;
 
-    private VRTK_InteractableObject vrObj;
+    private VRTK_InteractUse vrObj;
 
   
 
     private void Awake()
     {
-        vrObj = GetComponent<VRTK_InteractableObject>();
+        vrObj = GetComponent<VRTK_InteractUse>();
         AudioSource[] lightSounds = GetComponents<AudioSource>();
         lightOnSound = lightSounds[0];
         lightOffSound = lightSounds[1];
@@ -46,14 +46,17 @@ public class LightSwitch : MonoBehaviour {
         }
         lighted = false;
     }
-    
-    void Update()
+
+    private void OnTriggerStay(Collider other)
     {
-        if (this.vrObj.IsUsing() == true)
+        if (this.vrObj.IsUseButtonPressed() == true)
         {
             lighted = !lighted;
         }
+    }
 
+    void Update()
+    {
         if (lighted)
         {
             for (int i = 0; i < flickeringLights.Length; i++)
