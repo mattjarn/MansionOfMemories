@@ -17,6 +17,8 @@ public class LightSwitch : MonoBehaviour {
 
     private VRTK_InteractableObject vrObj;
 
+  
+
     private void Awake()
     {
         vrObj = GetComponent<VRTK_InteractableObject>();
