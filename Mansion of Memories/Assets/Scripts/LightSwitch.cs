@@ -57,12 +57,15 @@ public class LightSwitch : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        print("In Collider");
         lighted = !lighted;
         transform.Rotate(new Vector3(180, 0, 0));
-
-        lightOnSound.Play();
-
+        if (lighted)
+        {
+            lightOnSound.Play();
+        } else
+        {
+            lightOffSound.Play();
+        }
 
         playerActivated = !playerActivated;
         for (int i = 0; i < dLights; i++)
