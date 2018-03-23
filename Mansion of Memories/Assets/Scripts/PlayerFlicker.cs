@@ -9,7 +9,7 @@ public class PlayerFlicker : MonoBehaviour {
 
     private void Start()
     {
-        lt.GetComponent<Light>();   
+        lt = GetComponent<Light>();   
     }
 
     private void OnTriggerStay(Collider other)

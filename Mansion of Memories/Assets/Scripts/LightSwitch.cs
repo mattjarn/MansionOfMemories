@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using VRTK;
 
-public class LightSwitch : MonoBehaviour {
+public class LightSwitch : MonoBehaviour
+{
     AudioSource lightOnSound;
     AudioSource lightOffSound;
 
@@ -18,13 +19,9 @@ public class LightSwitch : MonoBehaviour {
     private int nLights;
     private int dLights;
 
-    private VRTK_InteractUse vrObj;
-
-
 
     private void Awake()
     {
-        vrObj = GetComponent<VRTK_InteractUse>();
         AudioSource[] lightSounds = GetComponents<AudioSource>();
         lightOnSound = lightSounds[0];
         lightOffSound = lightSounds[1];
@@ -58,29 +55,34 @@ public class LightSwitch : MonoBehaviour {
         playerActivated = false;
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (this.vrObj.IsUseButtonPressed() == true)
+        print("In Collider");
+        lighted = !lighted;
+        transform.Rotate(new Vector3(180, 0, 0));
+
+        lightOnSound.Play();
+
+
+        playerActivated = !playerActivated;
+        for (int i = 0; i < dLights; i++)
         {
-            lighted = !lighted;
-            playerActivated = !playerActivated;
-            for (int i = 0; i < dLights; i++)
+            if (delayedFlickering[i] != null)
+            {
+                delayedFlickering[i].enabled = true;
+            }
+
+            if (lighted == false)
             {
                 if (delayedFlickering[i] != null)
                 {
-                    delayedFlickering[i].enabled = true;
-                }
-
-                if (lighted == false)
-                {
-                    if (delayedFlickering[i] != null)
-                    {
-                        delayedFlickering[i].enabled = false;
-                    }
+                    delayedFlickering[i].enabled = false;
                 }
             }
         }
     }
+
+
 
     void Update()
     {
