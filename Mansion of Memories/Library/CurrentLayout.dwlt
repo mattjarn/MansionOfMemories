@@ -15,8 +15,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8
     y: 51
+<<<<<<< HEAD
     width: 1536
     height: 781
+=======
+    width: 1317
+    height: 765
+>>>>>>> Matt
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -40,12 +45,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1536
     height: 731
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 118
+=======
+    width: 1317
+    height: 715
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
+  vertical: 0
+  controlID: 32
+>>>>>>> Matt
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -60,10 +74,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1088
     y: 0
     width: 448
     height: 731
+=======
+    x: 939
+    y: 0
+    width: 378
+    height: 715
+>>>>>>> Matt
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
@@ -87,8 +108,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 326
     height: 455
+=======
+    width: 274
+    height: 432
+>>>>>>> Matt
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -111,9 +137,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 455
     width: 1088
     height: 276
+=======
+    y: 432
+    width: 939
+    height: 283
+>>>>>>> Matt
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
@@ -141,8 +173,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1536
     height: 781
+=======
+    width: 1317
+    height: 765
+>>>>>>> Matt
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -161,7 +198,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1536
+=======
+    width: 1317
+>>>>>>> Matt
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -181,8 +222,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 761
     width: 1536
+=======
+    y: 745
+    width: 1317
+>>>>>>> Matt
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -204,12 +250,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1088
     height: 731
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 73
+=======
+    width: 939
+    height: 715
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
+  vertical: 1
+  controlID: 46
+>>>>>>> Matt
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,8 +283,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1088
     height: 455
+=======
+    width: 939
+    height: 432
+>>>>>>> Matt
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
@@ -248,10 +308,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 326
     y: 0
     width: 762
     height: 455
+=======
+    x: 274
+    y: 0
+    width: 665
+    height: 432
+>>>>>>> Matt
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
@@ -311,9 +378,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 8
+<<<<<<< HEAD
     y: 555
     width: 1086
     height: 255
+=======
+    y: 532
+    width: 937
+    height: 262
+>>>>>>> Matt
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -327,10 +400,15 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/Prefabs/Rooms
+=======
+    - Assets
+>>>>>>> Matt
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Prefabs/Rooms
   m_LastFoldersGridSize: 60
   m_LastProjectPath: C:\Users\wib236\Documents\GitHub\MansionOfMemories\Mansion of
@@ -341,6 +419,18 @@ MonoBehaviour:
     m_SelectedIDs: 2ee70000
     m_LastClickedID: 59182
     m_ExpandedIDs: 000000005ede0000d4de000056df0000c0df000004e00000fce0000024e1000068e10000f4e300000ee4000016e5000048e6000080e600002ee7000046e70000f4e70000fae7000092e800002ae9000036ea000090ea0000a0ea00001aec0000c8ec0000a4ed0000c4ee000076f00000b0f20000d2f20000e0f20000dafa00002cfc0000b0fd00000cff0000d0ff0000c4000100d60001008e01010090010100920101009401010096010100980101009a0101009c0101009e010100a0010100a2010100a4010100a6010100a8010100aa010100ac01010000ca9a3bffffff7f
+=======
+  - Assets
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\mattj\OneDrive\Documents\GitHub\MansionOfMemories\Mansion
+    of Memories
+  m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: e82a0000
+    m_LastClickedID: 10984
+    m_ExpandedIDs: 00000000e82a0000262c0000022d0000282d0000522d0000402f0000ee3000008031000032330000c0330000043500003c36000098370000a838000038390000863a0000f83a0000003d0000c03f000060430000144600003c4600000c4f00002a520000c4530000d45400006e560000809100008291000000ca9a3bffffff7f
+>>>>>>> Matt
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -368,7 +458,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000005ede0000d4de000056df0000c0df000004e00000fce0000024e1000068e10000f4e300000ee4000016e5000048e6000080e600002ee7000046e70000f4e70000fae7000092e800002ae9000036ea000090ea0000a0ea00001aec0000c8ec0000a4ed0000c4ee000076f00000b0f20000d2f20000e0f20000dafa00002cfc0000b0fd00000cff0000d0ff0000c4000100d60001008e01010090010100920101009401010096010100980101009a0101009c0101009e010100a0010100a2010100a4010100a6010100a8010100aa010100ac010100
+=======
+    m_ExpandedIDs: 00000000e82a0000262c0000022d0000282d0000522d0000402f0000ee3000008031000032330000c0330000043500003c36000098370000a838000038390000863a0000f83a0000003d0000c03f000060430000144600003c4600000c4f00002a520000c4530000d45400006e5600008091000082910000
+>>>>>>> Matt
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -395,8 +489,13 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000bc680000108e0000709602002c7a0100
+=======
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> Matt
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -445,10 +544,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1098
     y: 100
     width: 446
     height: 710
+=======
+    x: 949
+    y: 100
+    width: 376
+    height: 694
+>>>>>>> Matt
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
@@ -481,6 +587,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8
     y: 100
+<<<<<<< HEAD
     width: 324
     height: 434
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -489,6 +596,16 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: 4009fbffca0bfbff3a0cfbff2a0efbffc45afbffc65afbffec5afbfff45afbff045bfbff1c5bfbff3a5bfbff405bfbff425bfbff445bfbff5e5bfbff685bfbffce5ffbff00000000
+=======
+    width: 272
+    height: 411
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 165b0000
+    m_LastClickedID: 23318
+    m_ExpandedIDs: 0ef6ffff2af6ffff6af6ffff94f6ffffc0f6ffffd6f6ffffe2f6ffff16f7ffff1cf8ffff1ef8ffff98fbffff00000000705c00008c5c0000c25c0000fe5c0000365d0000505d0000bc5e0000425f0000fa600000726100007a610000cc61000082620000
+>>>>>>> Matt
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,6 +650,7 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 336
     y: 100
     width: 758
@@ -540,13 +658,28 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 600.9011239540974
+=======
+    x: 284
+    y: 100
+    width: 661
+    height: 411
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneLighting: 1
+  lastFramingTime: 888.9045783779774
+>>>>>>> Matt
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -11.659352, y: 39.875286, z: 61.359253}
     speed: 2
     m_Value: {x: -11.659352, y: 39.875286, z: 61.359253}
+=======
+    m_Target: {x: 1.3026292, y: 4.9897037, z: -3.2797253}
+    speed: 2
+    m_Value: {x: 1.3026292, y: 4.9897037, z: -3.2797253}
+>>>>>>> Matt
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -570,6 +703,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.032335997, y: -0.7170696, z: 0.03339382, w: 0.6954785}
     speed: 2
     m_Value: {x: 0.032335352, y: -0.7170554, z: 0.033393156, w: 0.6954647}
@@ -577,6 +711,15 @@ MonoBehaviour:
     m_Target: 10.709316
     speed: 2
     m_Value: 10.709316
+=======
+    m_Target: {x: -0.0056109405, y: 0.99416816, z: -0.08552507, w: -0.06545024}
+    speed: 2
+    m_Value: {x: -0.0056109405, y: 0.99416816, z: -0.08552507, w: -0.06545024}
+  m_Size:
+    m_Target: -0.7394215
+    speed: 2
+    m_Value: -0.7394215
+>>>>>>> Matt
   m_Ortho:
     m_Target: 0
     speed: 2
