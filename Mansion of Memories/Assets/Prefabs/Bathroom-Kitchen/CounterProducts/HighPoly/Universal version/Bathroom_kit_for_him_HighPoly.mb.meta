@@ -4,7 +4,86 @@ timeCreated: 1521914163
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube4
+    100004: pCube7
+    100006: pCylinder1
+    100008: pCylinder2
+    100010: polySurface10
+    100012: polySurface4
+    100014: polySurface5
+    100016: polySurface6
+    100018: polySurface7
+    100020: polySurface8
+    100022: polySurface9
+    100024: pSphere2
+    400000: //RootNode
+    400002: pCube4
+    400004: pCube7
+    400006: pCylinder1
+    400008: pCylinder2
+    400010: polySurface10
+    400012: polySurface4
+    400014: polySurface5
+    400016: polySurface6
+    400018: polySurface7
+    400020: polySurface8
+    400022: polySurface9
+    400024: pSphere2
+    2100000: lambert1
+    2100002: Bouchon_parfum
+    2100004: capuchon_deodorant
+    2100006: base_brosse_a_dents
+    2100008: gel_douche
+    2100010: gel_a_raser
+    2100012: gel_a_raser_pompe
+    2100014: capuchon_gel_a_raser
+    2100016: Parfum
+    2100018: liquide_parfum
+    2100020: boule_deodorant
+    2100022: deodorant
+    2100024: manche_brosse
+    2100026: cou_brosse
+    2100028: bouton_brosse
+    2100030: poils_brosse
+    2100032: Rasoir1
+    2100034: rasoir
+    2100036: blinn16
+    2300000: pCube4
+    2300002: pCube7
+    2300004: pCylinder1
+    2300006: pCylinder2
+    2300008: polySurface10
+    2300010: polySurface5
+    2300012: polySurface6
+    2300014: polySurface7
+    2300016: polySurface8
+    2300018: polySurface9
+    2300020: pSphere2
+    3300000: pCube4
+    3300002: pCube7
+    3300004: pCylinder1
+    3300006: pCylinder2
+    3300008: polySurface10
+    3300010: polySurface5
+    3300012: polySurface6
+    3300014: polySurface7
+    3300016: polySurface8
+    3300018: polySurface9
+    3300020: pSphere2
+    4300000: pCylinder1
+    4300002: pCylinder2
+    4300004: pSphere2
+    4300006: pCube4
+    4300008: pCube7
+    4300010: polySurface9
+    4300012: polySurface10
+    4300014: polySurface5
+    4300016: polySurface6
+    4300018: polySurface7
+    4300020: polySurface8
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
