@@ -1,0 +1,30 @@
+****Sounds Added****
+Darkness and Horror Soundtrack
+
+**MP3***
+CabinetClose
+CabinetOpen
+DoorLock
+DrawerClose
+DrawerOpen
+Fizzle
+FlashLightON-OFF
+PageTurn
+PouringRain
+RunningWater
+ToiletFlush
+Pump
+Wall_Light_Switch_Close
+WeirdInsectishNoise
+
+**WAV**
+BookClose
+CarSkidding
+Crash
+DoorCraking
+JackInTheBox
+PagesTurning
+PageTurn
+ReversedJack
+LightOff
+LightOn
