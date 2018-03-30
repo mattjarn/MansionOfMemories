@@ -8,6 +8,8 @@ TagManager:
   - lightbulb
   - Placeable
   - DelayedFlicker
+  - ObjectNeeded
+  - Collectable
   layers:
   - Default
   - TransparentFX
