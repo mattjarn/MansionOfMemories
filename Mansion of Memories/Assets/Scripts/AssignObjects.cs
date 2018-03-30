@@ -5,25 +5,32 @@ using UnityEngine;
 
 public class AssignObjects : MonoBehaviour
 {
-    public GameObject[] placementPoints;
+    public int numOfObjects;
+    GameObject[] placements;
+    List<GameObject> placementPoints = new List<GameObject>();
     public List<GameObject> objects;
 
     private void Awake()
     {
 
-        placementPoints = GameObject.FindGameObjectsWithTag("ObjectNeeded");
-
-        for (int i = 0; i < placementPoints.Length; i++)
+        placements = GameObject.FindGameObjectsWithTag("ObjectNeeded");
+        for(int i=0; i<placements.Length;i++)
         {
-            Vector3 position = new Vector3(placementPoints[i].transform.position.x, placementPoints[i].transform.position.y, placementPoints[i].transform.position.z);
-            int rotation = (int)(placementPoints[i].transform.eulerAngles.y / 90);
+            placementPoints.Add(placements[i]);
+        }
+
+
+        for (int j = 0; j < numOfObjects; j++)
+        {
+            int ind = Random.Range(0, placementPoints.Count);
+            Vector3 position = new Vector3(placementPoints[ind].transform.position.x, placementPoints[ind].transform.position.y, placementPoints[ind].transform.position.z);
 
             int index = Random.Range(0, objects.Count);
-            GameObject go = Instantiate(objects[index], position, placementPoints[i].transform.rotation);
+            GameObject go = Instantiate(objects[index], position, placementPoints[ind].transform.rotation);
             go.tag = "Collectable";
-            go.AddComponent<Rigidbody>(); // Add the rigidbody.
-            //gameObjectsRigidBody.mass = 5; // Set the GO's mass to 5 via the Rigidbody.
+            //go.AddComponent<Rigidbody>(); // Add the rigidbody.
             objects.RemoveAt(index);
+            placementPoints.RemoveAt(ind);
         }
 
 

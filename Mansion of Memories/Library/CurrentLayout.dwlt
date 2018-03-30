@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1333
     height: 796
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 64
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 280
     height: 796
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -121,7 +121,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 1053
     height: 796
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 65
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 0
     width: 1053
     height: 482
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 66
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,20 +327,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Horror_Environment_Pack_2/!Prefabs/Inside/Props/Books
+    - Assets/Prefabs/Collectables
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Horror_Environment_Pack_2/!Prefabs/Inside/Props/Books
+  - Assets/Prefabs/Collectables
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mattj\OneDrive\Documents\GitHub\MansionOfMemories\Mansion
     of Memories
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 360}
-    m_SelectedIDs: 3a860000
-    m_LastClickedID: 34362
-    m_ExpandedIDs: 000000005c5100007e5200004a530000b653000068540000cc540000f2540000f05600004a570000ca570000145a00008c5b0000c65b0000d25d0000805e0000aa6000000c6100003c6200008e620000f8630000fe6300008665000052660000ce67000066680000966800009a6b0000e86b0000846d0000466f000066710000fe73000080740000227800006a7800008278000092780000dc7d00002a870000168a0000028c0000ae8e0000329000002e92000052920000829300008493000086930000889300008a9300008c9300008e93000090930000929300009493000096930000989300009a9300009c9300009e930000a093000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 672}
+    m_SelectedIDs: 9e840100
+    m_LastClickedID: 99486
+    m_ExpandedIDs: 0000000022350000423600000c370000783700002a38000098380000ba3800003c3b0000963b0000583e0000ca3f0000fa4100009a420000bc4400001a450000424600008c460000f2470000f84700004c4c00007a4c00006a4f0000b44f0000065300001c550000b657000036580000cc5b0000105c0000285c0000385c0000966a00006c6d0000506f0000f67100007073000062750000867500005479000056790000587900005a7900005c7900005e79000060790000627900006479000066790000687900006a7900006c7900006e790000707900007279000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -368,7 +368,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c5100007e5200004a53000068540000cc540000f05600004a570000ca5700008c5b0000c65b0000d25d0000aa6000000c6100003c6200008e620000f8630000fe6300008665000052660000ce6700006668000096680000e86b0000846d0000466f00006671000080740000227800006a780000927800002a870000168a0000028c0000ae8e0000329000002e92000052920000829300008493000086930000889300008a9300008c9300008e93000090930000929300009493000096930000989300009a9300009c9300009e930000a0930000
+    m_ExpandedIDs: 0000000022350000423600000c370000783700002a38000098380000ba3800003c3b0000963b0000163c0000583e0000ca3f000002400000fa4100009a420000bc4400001a450000424600008c460000f2470000f847000072490000404a0000ba4b00004c4c00007a4c00006a4f0000b44f00004a510000065300001c550000b657000036580000cc5b0000105c0000285c0000385c000074610000966a00006c6d0000506f0000f67100007073000062750000867500005479000056790000587900005a7900005c7900005e79000060790000627900006479000066790000687900006a7900006c7900006e7900007079000072790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -486,20 +486,20 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2c92ffff
-    m_LastClickedID: -28116
-    m_ExpandedIDs: ea96ffff18d0ffff56e4ffff9ee7ffff00000000a69400006c990000d09a00004a9b0000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 5225feff424bfeff1c59feff50e9ffff82e9ffff46eaffffa8eaffffd8eafffffeeaffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Jewelry_3(Clone)
-      m_OriginalName: Jewelry_3(Clone)
+      m_Name: Album_Botany(Clone)
+      m_OriginalName: Album_Botany(Clone)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -117020
+      m_UserData: -192248
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -539,14 +539,14 @@ MonoBehaviour:
     height: 461
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 84283.35168259474
+  lastFramingTime: 1136.2858580779916
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.1599767, y: -2.1810622, z: 1.1665561}
+    m_Target: {x: 2.266519, y: -2.2522304, z: -1.6366229}
     speed: 2
-    m_Value: {x: 2.1599767, y: -2.1810622, z: 1.1665561}
+    m_Value: {x: 2.266519, y: -2.2522304, z: -1.6366229}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -570,13 +570,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.002253014, y: -0.97790885, z: 0.20875323, w: 0.0105545325}
+    m_Target: {x: -0.00034610706, y: 0.9944541, z: -0.10512017, w: -0.0032726633}
     speed: 2
-    m_Value: {x: 0.002253014, y: -0.97790885, z: 0.20875323, w: 0.0105545325}
+    m_Value: {x: -0.00034610706, y: 0.9944541, z: -0.10512017, w: -0.0032726633}
   m_Size:
-    m_Target: 5.079428
+    m_Target: 8.254394
     speed: 2
-    m_Value: 5.079428
+    m_Value: 8.254394
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -687,8 +687,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 718
-    width: 1366
-    height: 308
+    x: 0
+    y: 574
+    width: 1051
+    height: 293
   m_PersistentViewDataDictionary: {fileID: 0}
