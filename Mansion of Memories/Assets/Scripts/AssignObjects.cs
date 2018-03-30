@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using VRTK;
 
 public class AssignObjects : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class AssignObjects : MonoBehaviour
             int index = Random.Range(0, objects.Count);
             GameObject go = Instantiate(objects[index], position, placementPoints[ind].transform.rotation);
             go.tag = "Collectable";
-            //go.AddComponent<Rigidbody>(); // Add the rigidbody.
+            //go.AddComponent<Rigidbody>();
             objects.RemoveAt(index);
             placementPoints.RemoveAt(ind);
         }
