@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-sceneSetups:
-- path: Assets/Scenes/William.unity
-=======
-<<<<<<< HEAD
 sceneSetups: []
-=======
-sceneSetups:
-- path: Assets/Scenes/Library Room (Matt).unity
->>>>>>> 3eec8b4d9e43fb213c0d13c4370db1c43033b8ad
-  isLoaded: 1
-  isActive: 1
->>>>>>> Matt
