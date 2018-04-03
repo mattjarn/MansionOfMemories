@@ -5,9 +5,7 @@ using UnityEngine;
 
 public class AssignRooms : MonoBehaviour
 {
-    public int numberOfRooms;
-    //public GameObject[] roomList;
-    public GameObject[] placementPoints;
+    private GameObject[] placementPoints;
     public List<GameObject> rooms;
 
     private void Awake()
