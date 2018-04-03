@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/Scenes/Library Room (Matt).unity
+  isLoaded: 1
+  isActive: 1
+>>>>>>> Matt
