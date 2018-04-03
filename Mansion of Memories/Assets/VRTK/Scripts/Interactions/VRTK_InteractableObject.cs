@@ -223,6 +223,11 @@ namespace VRTK
 
         public virtual void OnInteractableObjectGrabbed(InteractableObjectEventArgs e)
         {
+            if (this.tag == "Collectable")
+            {
+                this.gameObject.SetActive(false);
+                //Destroy(this);
+            }
             if (InteractableObjectGrabbed != null)
             {
                 InteractableObjectGrabbed(this, e);
