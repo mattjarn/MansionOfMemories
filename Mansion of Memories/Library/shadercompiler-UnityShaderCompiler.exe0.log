@@ -1,20 +1,2 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
-<<<<<<< HEAD
-Cmd: preprocess
-  insize=19807 outsize=5334 ok=1
-Cmd: preprocess
-  error: 2 plat 21 at (42): Can't find include file frag_ao.cginc
-  error: 2 plat 21 at (46): Can't find include file frag_ao.cginc
-  error: 2 plat 21 at (50): Can't find include file frag_ao.cginc
-  error: 2 plat 21 at (54): Can't find include file frag_ao.cginc
-  error: 2 plat 21 at (59): Can't find include file frag_ao.cginc
-  insize=6716 outsize=704 ok=0
-Cmd: preprocess
-  insize=43014 outsize=20692 ok=1
-Cmd: preprocess
-  insize=36132 outsize=7385 ok=1
-Cmd: preprocess
-  insize=16286 outsize=4015 ok=1
-=======
->>>>>>> 62ebea2457080e0f8298ce1cfe6b010175e15bdf
