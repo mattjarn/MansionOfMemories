@@ -1,20 +1,21 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
-<<<<<<< HEAD
 Cmd: preprocess
-  insize=19807 outsize=5334 ok=1
+  insize=20109 outsize=5384 ok=1
 Cmd: preprocess
   error: 2 plat 21 at (42): Can't find include file frag_ao.cginc
   error: 2 plat 21 at (46): Can't find include file frag_ao.cginc
   error: 2 plat 21 at (50): Can't find include file frag_ao.cginc
   error: 2 plat 21 at (54): Can't find include file frag_ao.cginc
   error: 2 plat 21 at (59): Can't find include file frag_ao.cginc
-  insize=6716 outsize=704 ok=0
+  insize=7001 outsize=753 ok=0
 Cmd: preprocess
-  insize=43014 outsize=20692 ok=1
+  insize=43417 outsize=20766 ok=1
 Cmd: preprocess
-  insize=36132 outsize=7385 ok=1
+  insize=36741 outsize=7450 ok=1
 Cmd: preprocess
-  insize=16286 outsize=4015 ok=1
-=======
->>>>>>> 62ebea2457080e0f8298ce1cfe6b010175e15bdf
+  insize=16548 outsize=4061 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2259 outsize=790 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2259 outsize=402 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1

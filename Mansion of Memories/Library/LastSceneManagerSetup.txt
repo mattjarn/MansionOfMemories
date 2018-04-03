@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Temp.unity
-=======
 - path: Assets/Scenes/William.unity
->>>>>>> 62ebea2457080e0f8298ce1cfe6b010175e15bdf
   isLoaded: 1
   isActive: 1
