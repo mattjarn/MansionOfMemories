@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 54580639696817190}
   - component: {fileID: 114805721286199734}
   - component: {fileID: 114936368609917922}
+  - component: {fileID: 65155179021318184}
   m_Layer: 0
   m_Name: Rope
   m_TagString: Untagged
@@ -121,6 +122,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65155179021318184
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.357516, y: 1.6314553, z: 0.08810349}
+  m_Center: {x: 0.05357954, y: -0.13364068, z: 0.041477196}
 --- !u!114 &114147016973621406
 MonoBehaviour:
   m_ObjectHideFlags: 1
