@@ -289,16 +289,9 @@
       <Project>{4927E5DC-55A9-2555-5C4B-EAE47F98E60F}</Project>
       <Name>Mansion of Memories</Name>
     </ProjectReference>
-    <ProjectReference Include="Mansion of Memories.Plugins.csproj">
-      <Project>{ADF81FE1-D311-4323-89BD-ABA48C3648AE}</Project>
-      <Name>Mansion of Memories.Plugins</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mansion of Memories.Editor.Plugins.csproj">
-      <Project>{6FE1C55E-2E41-6AAE-720C-2B54504F0953}</Project>
-      <Name>Mansion of Memories.Editor.Plugins</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Imported Assests\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\Imported Assests\SteamVR\Editor\SteamVR_Editor.cs" />
     <Compile Include="Assets\Imported Assests\SteamVR\Editor\SteamVR_Preferences.cs" />
     <Compile Include="Assets\Imported Assests\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
@@ -323,6 +316,11 @@
     <None Include="Assets\Imported Assests\FPSHorrorEssentials\StandardSpec_2sided.shader" />
     <None Include="Assets\Imported Assests\FPSHorrorEssentials\Tunnel_Props\Shaders\sf_watershader.shader" />
     <None Include="Assets\Imported Assests\FPSHorrorEssentials\Tunnel_Props\TunnelProps_Documentation.txt" />
+    <None Include="Assets\Imported Assests\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Imported Assests\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Imported Assests\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Imported Assests\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Imported Assests\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
     <None Include="Assets\Imported Assests\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\Imported Assests\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\Imported Assests\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
@@ -339,15 +337,10 @@
     <None Include="Assets\Imported Assests\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
     <None Include="Assets\Imported Assests\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
     <None Include="Assets\Imported Assests\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
-    <None Include="Assets\Prefabs\Bathroom-Kitchen\CounterProducts\OBJ\README.txt" />
-    <None Include="Assets\Prefabs\Bathroom-Kitchen\CounterProducts\README.txt" />
+    <None Include="Assets\Prefabs\Props\Bathroom-Kitchen\CounterProducts\OBJ\README.txt" />
+    <None Include="Assets\Prefabs\Props\Bathroom-Kitchen\CounterProducts\README.txt" />
     <None Include="Assets\Sounds\Darkness and Horror Soundtrack\Read Me!.txt" />
     <None Include="Assets\Sounds\SoundsAdded.txt" />
-    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
