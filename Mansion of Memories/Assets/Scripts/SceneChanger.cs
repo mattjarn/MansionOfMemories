@@ -2,22 +2,15 @@
 using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour {
-    public bool startGame = false;
 
-	public void ChangeScenes()
+	public void StartGame()
     {
-        if (startGame)
-        {
             SceneManager.LoadScene("Main");
-        }
-        else
-        {
-            SceneManager.LoadScene("GameOver");
-        }
     }
 
-    public void SetStartGame(bool start)
+    public void QuitGame()
     {
-        startGame = start;
+        Application.Quit();
     }
+
 }

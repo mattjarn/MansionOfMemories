@@ -19,14 +19,16 @@ public class MenuToggle : MonoBehaviour {
 
     private void ControllerEvents_ButtonTwoReleased( object sender, ControllerInteractionEventArgs e)
     {
-        GetComponent<VRTK_BezierPointerRenderer>().enabled = !GetComponent<VRTK_BezierPointerRenderer>().enabled;
-        GetComponent < VRTK_StraightPointerRenderer>().enabled = !GetComponent <VRTK_StraightPointerRenderer>().enabled;
         if (GetComponent<VRTK_StraightPointerRenderer>().enabled)
         {
-            GetComponent<VRTK_Pointer>().pointerRenderer = GetComponent<VRTK_StraightPointerRenderer>();
+            GetComponent<VRTK_StraightPointerRenderer>().enabled = false;
+            GetComponent<VRTK_BezierPointerRenderer>().enabled = true;
+            GetComponent<VRTK_Pointer>().pointerRenderer = GetComponent<VRTK_BezierPointerRenderer>();
         } else
         {
-            GetComponent<VRTK_Pointer>().pointerRenderer = GetComponent<VRTK_BezierPointerRenderer>();
+            GetComponent<VRTK_StraightPointerRenderer>().enabled = true;
+            GetComponent<VRTK_BezierPointerRenderer>().enabled = false;
+            GetComponent<VRTK_Pointer>().pointerRenderer = GetComponent<VRTK_StraightPointerRenderer>();
         }
         menuState = !menuState;
         menu.SetActive(menuState);
