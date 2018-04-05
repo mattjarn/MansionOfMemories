@@ -7,6 +7,7 @@ public class PlaySoundLoop : MonoBehaviour {
     public AudioSource sound;
     private void OnTriggerEnter(Collider other)
     {
+        sound.loop = true;
         sound.Play();
     }
 
