@@ -8,11 +8,8 @@ public class PlaySoundLoop : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
-        {
             sound.loop = true;
             sound.Play();
-        }
     }
 
     private void OnTriggerExit(Collider other)
