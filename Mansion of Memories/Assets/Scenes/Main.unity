@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0037156898, g: 0.004996442, b: 0.0067135803, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -7257,174 +7257,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4200699062770882, guid: 4007f4a86e1146f419e083cc1f5fb6b1,
     type: 2}
   m_PrefabInternal: {fileID: 416806846}
---- !u!1001 &421151780
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1802694451}
-    m_Modifications:
-    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -28
-      objectReference: {fileID: 0}
-    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 11.335
-      objectReference: {fileID: 0}
-    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.1500001
-      objectReference: {fileID: 0}
-    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114773337278590298, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: grabAttachMechanicScript
-      value: 
-      objectReference: {fileID: 2026824884}
-    - target: {fileID: 114773337278590298, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: secondaryGrabActionScript
-      value: 
-      objectReference: {fileID: 2026824882}
-    - target: {fileID: 114892444744868378, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: grabAttachMechanicScript
-      value: 
-      objectReference: {fileID: 2026824884}
-    - target: {fileID: 114892444744868378, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: secondaryGrabActionScript
-      value: 
-      objectReference: {fileID: 2026824882}
-    - target: {fileID: 1219833558998050, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_Name
-      value: Four-WayHallway (Matt-Cross)
-      objectReference: {fileID: 0}
-    - target: {fileID: 59258569094158472, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.z
-      value: 1.2415595
-      objectReference: {fileID: 0}
-    - target: {fileID: 59987900918797000, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.z
-      value: -3.2219987
-      objectReference: {fileID: 0}
-    - target: {fileID: 59978076980252572, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.z
-      value: -5.983002
-      objectReference: {fileID: 0}
-    - target: {fileID: 59637509239352438, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.z
-      value: -3.2210011
-      objectReference: {fileID: 0}
-    - target: {fileID: 59507125081024722, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.x
-      value: -9.141003
-      objectReference: {fileID: 0}
-    - target: {fileID: 59507125081024722, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.z
-      value: -5.9839997
-      objectReference: {fileID: 0}
-    - target: {fileID: 59258569094158472, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 59258569094158472, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4514898714843922, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 4514898714843922, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 7.9291
-      objectReference: {fileID: 0}
-    - target: {fileID: 4933866222548090, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 7.921
-      objectReference: {fileID: 0}
-    - target: {fileID: 59637509239352438, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 59637509239352438, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 59978076980252572, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 59978076980252572, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 59940879650786008, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 59940879650786008, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 59507125081024722, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 59507125081024722, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 59987900918797000, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 59987900918797000, guid: 30aab1e1213aeff438510e35bcef5b63,
-        type: 2}
-      propertyPath: m_Axis.y
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &422323079 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1080675973010628, guid: 7ee2a43bff44a1f4bbbbb6de3e22fa22,
@@ -18375,7 +18207,7 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63,
     type: 2}
-  m_PrefabInternal: {fileID: 421151780}
+  m_PrefabInternal: {fileID: 1846068419}
 --- !u!1001 &1147526630
 Prefab:
   m_ObjectHideFlags: 0
@@ -28903,6 +28735,72 @@ Transform:
   m_PrefabParentObject: {fileID: 4976452479641684, guid: 42d3c69b1709c8c46b2803dcc7998b14,
     type: 2}
   m_PrefabInternal: {fileID: 1844602285}
+--- !u!1001 &1846068419
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1802694451}
+    m_Modifications:
+    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 11.335
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.1500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842130202202884, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114892444744868378, guid: 30aab1e1213aeff438510e35bcef5b63,
+        type: 2}
+      propertyPath: grabAttachMechanicScript
+      value: 
+      objectReference: {fileID: 2026824884}
+    - target: {fileID: 114892444744868378, guid: 30aab1e1213aeff438510e35bcef5b63,
+        type: 2}
+      propertyPath: secondaryGrabActionScript
+      value: 
+      objectReference: {fileID: 2026824882}
+    - target: {fileID: 114773337278590298, guid: 30aab1e1213aeff438510e35bcef5b63,
+        type: 2}
+      propertyPath: grabAttachMechanicScript
+      value: 
+      objectReference: {fileID: 2026824884}
+    - target: {fileID: 114773337278590298, guid: 30aab1e1213aeff438510e35bcef5b63,
+        type: 2}
+      propertyPath: secondaryGrabActionScript
+      value: 
+      objectReference: {fileID: 2026824882}
+    - target: {fileID: 1219833558998050, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_Name
+      value: Four-WayHallway (Matt-Cross)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &1846784817 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4526938737098722, guid: ddea376334989304b8df17d12bea004a,
