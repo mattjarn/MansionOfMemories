@@ -1818,6 +1818,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4365618139906614}
+  - component: {fileID: 65196585165685884}
+  - component: {fileID: 114892302383938842}
+  - component: {fileID: 114092851651538840}
+  - component: {fileID: 114242552341319834}
+  - component: {fileID: 54267893976490816}
   m_Layer: 0
   m_Name: Toothbrush
   m_TagString: Untagged
@@ -2781,7 +2786,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1057178304181048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.291212, y: -2.202096, z: -11.932733}
+  m_LocalPosition: {x: 1.9440011, y: 2.3610864, z: -0.013786316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4384383490355252}
@@ -7269,6 +7274,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1652059137658024}
   m_Mesh: {fileID: 4300000, guid: ceacabe43b651ad489ee359e5f13e250, type: 3}
+--- !u!54 &54267893976490816
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881225615747110}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!54 &54725477243748646
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -7778,6 +7798,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.23598033, z: 2}
   m_Center: {x: 0, y: -0.08200982, z: 0}
+--- !u!65 &65196585165685884
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881225615747110}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.11838442, y: 0.2441445, z: 0.12847422}
+  m_Center: {x: -0.18214902, y: 0.16549733, z: -1.8595762}
 --- !u!65 &65207424874248892
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -8784,6 +8816,23 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114092851651538840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881225615747110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precisionGrab: 0
+  rightSnapHandle: {fileID: 0}
+  leftSnapHandle: {fileID: 0}
+  throwVelocityWithAttachDistance: 0
+  throwMultiplier: 1
+  onGrabCollisionDelay: 0
 --- !u!114 &114157537332123224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8801,6 +8850,17 @@ MonoBehaviour:
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 1
   onGrabCollisionDelay: 0
+--- !u!114 &114242552341319834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881225615747110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114362354568945730
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8879,6 +8939,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114892302383938842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881225615747110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableWhenIdle: 0
+  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
+  allowedTouchControllers: 0
+  ignoredColliders: []
+  isGrabbable: 1
+  holdButtonToGrab: 1
+  stayGrabbedOnTeleport: 1
+  validDrop: 1
+  grabOverrideButton: 0
+  allowedGrabControllers: 0
+  grabAttachMechanicScript: {fileID: 114092851651538840}
+  secondaryGrabActionScript: {fileID: 114242552341319834}
+  isUsable: 0
+  holdButtonToUse: 1
+  useOnlyIfGrabbed: 0
+  pointerActivatesUseAction: 0
+  useOverrideButton: 0
+  allowedUseControllers: 0
+  usingState: 0
 --- !u!135 &135157788221260484
 SphereCollider:
   m_ObjectHideFlags: 1
