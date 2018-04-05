@@ -7,9 +7,11 @@ public class PlayerFlicker : MonoBehaviour {
 
     public Light lt;
 
+    public AudioSource fizzle;
+
     private void Start()
     {
-        lt = GetComponent<Light>();   
+        lt = GetComponent<Light>();  
     }
 
     private void OnTriggerStay(Collider other)
@@ -21,6 +23,10 @@ public class PlayerFlicker : MonoBehaviour {
                 if (lt.enabled != true)
                 {
                     lt.enabled = true;
+                    if (fizzle != null)
+                    {
+                        fizzle.Play();
+                    }
                 }
                 else
                 {
