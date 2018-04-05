@@ -1270,7 +1270,7 @@ GameObject:
   - component: {fileID: 4321616287929964}
   - component: {fileID: 33738015009729058}
   - component: {fileID: 23533676851302008}
-  - component: {fileID: 65425849902569604}
+  - component: {fileID: 64937633783333832}
   m_Layer: 0
   m_Name: bathtub
   m_TagString: Untagged
@@ -1875,7 +1875,7 @@ GameObject:
   - component: {fileID: 4177205484647642}
   - component: {fileID: 108566600956605138}
   - component: {fileID: 65776908016733934}
-  - component: {fileID: 114004116470890592}
+  - component: {fileID: 114040209122093944}
   m_Layer: 0
   m_Name: Point light
   m_TagString: DelayedFlicker
@@ -2848,7 +2848,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1057178304181048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.8272805, y: 1.5313799, z: -5.4155283}
+  m_LocalPosition: {x: -8.91939, y: 1.4868307, z: 9.650984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4384383490355252}
@@ -7757,6 +7757,20 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 2a7850605a17f504bbfdfaa591d5b419, type: 3}
+--- !u!64 &64937633783333832
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650894748651416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 3108062403fb4db45aa9f72e9dd7b443, type: 3}
 --- !u!64 &64947268402734672
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -7979,8 +7993,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.897268, y: 6.7157936, z: 4.830746}
-  m_Center: {x: 0.121814005, y: -0.8234094, z: 0.00000056793766}
+  m_Size: {x: 12.897268, y: 12.682415, z: 4.830746}
+  m_Center: {x: 0.12181337, y: -3.8067179, z: 0.0000004952145}
 --- !u!65 &65396564963489460
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -7993,18 +8007,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.099999994, z: 2}
   m_Center: {x: 0, y: -0.049999997, z: 0}
---- !u!65 &65425849902569604
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1650894748651416}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.85008, y: 0.36562258, z: 0.3549532}
-  m_Center: {x: -0.08909798, y: -0.056495216, z: 0.17724161}
 --- !u!65 &65503814463033046
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -8123,8 +8125,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.163099, y: 2.4618165, z: 2.5136588}
-  m_Center: {x: 0.07910367, y: -0.78909105, z: 1.4929539}
+  m_Size: {x: 4.0224543, y: 2.4618165, z: 2.5136588}
+  m_Center: {x: 0.1211846, y: -0.78909105, z: 1.4929539}
 --- !u!65 &65815366528056422
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -8953,9 +8955,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.625, g: 0.4748986, b: 0.28492647, a: 1}
-  m_Intensity: 3.54
-  m_Range: 5.21
-  m_SpotAngle: 55.99
+  m_Intensity: 6.34
+  m_Range: 4.9
+  m_SpotAngle: 106.76
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -9051,20 +9053,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114004116470890592
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1885460132444584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dc9177881278004f9312cf97b1e53c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  L: {fileID: 114216887213836782}
-  lt: {fileID: 108566600956605138}
-  fizzle: {fileID: 82741934775188792}
 --- !u!114 &114027136921226572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9076,6 +9064,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114040209122093944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1885460132444584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc9177881278004f9312cf97b1e53c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  L: {fileID: 114216887213836782}
+  lt: {fileID: 0}
+  fizzle: {fileID: 82741934775188792}
 --- !u!114 &114073403360894638
 MonoBehaviour:
   m_ObjectHideFlags: 1
