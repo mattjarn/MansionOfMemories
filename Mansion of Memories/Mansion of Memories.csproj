@@ -692,6 +692,7 @@
     <Compile Include="Assets\Scripts\MenuToggle.cs" />
     <Compile Include="Assets\Scripts\PlayerFlicker.cs" />
     <Compile Include="Assets\Scripts\PlaySound.cs" />
+    <Compile Include="Assets\Scripts\PlaySoundLoop.cs" />
     <Compile Include="Assets\Scripts\RoomAssigner.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
   </ItemGroup>
