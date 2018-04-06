@@ -36,6 +36,11 @@ public class MenuToggle : MonoBehaviour {
         menu.SetActive(menuState);
         if (menu.activeInHierarchy)
         {
+            if(CollectibleTracker.numberOfCollectiblesLeft==0)
+            {
+                GameObject.Find("TotalCollectibles").GetComponent<Text>().enabled = false;
+                GameObject.Find("CollectiblesLeft").GetComponent<Text>().text = "You've found all the items!";
+            }
             GameObject.Find("CollectiblesLeft").GetComponent<Text>().text = "Number of Collectibles Left:   " + CollectibleTracker.numberOfCollectiblesLeft.ToString();
         }
     }
