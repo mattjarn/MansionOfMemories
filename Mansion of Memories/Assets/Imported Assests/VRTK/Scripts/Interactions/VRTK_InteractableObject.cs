@@ -13,6 +13,7 @@ namespace VRTK
     /// Event Payload
     /// </summary>
     /// <param name="interactingObject">The object that is initiating the interaction (e.g. a controller).</param>
+    /// <param name="interactingObject">The object that is initiating the interaction (e.g. a controller).</param>
     public struct InteractableObjectEventArgs
     {
         public GameObject interactingObject;
@@ -226,7 +227,7 @@ namespace VRTK
             if (this.tag == "Collectable")
             {
                 this.gameObject.SetActive(false);
-                CollectibleTracker.RemoveCollectible(this.gameObject);
+                CollectibleTracker.RemoveCollectible();
             }
             if (InteractableObjectGrabbed != null)
             {

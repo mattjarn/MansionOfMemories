@@ -7,8 +7,7 @@ public class CollectibleTracker : MonoBehaviour
 {
     private static List<GameObject> collectibles;
     private static int totalNumberOfCollectibles;
-    public static int numberOfCollectiblesLeft;
-
+    public static int numberOfCollectiblesLeft; 
     public static void Initialize(List<GameObject> collectiblesList)
     {
         collectibles = collectiblesList;
@@ -23,11 +22,9 @@ public class CollectibleTracker : MonoBehaviour
         GameObject.Find("CollectiblesLeft").GetComponent<Text>().text = "Number of Collectibles Left:   " + numberOfCollectiblesLeft.ToString();
     }
 
-    public static void RemoveCollectible(GameObject collectible)
+    public static void RemoveCollectible()
     {
-        collectibles.Remove(collectible);
         numberOfCollectiblesLeft--;
-        GameObject.Find("CollectiblesLeft").GetComponent<Text>().text = "Number of Total Collectibles:   " + numberOfCollectiblesLeft.ToString();
     }
 
 }

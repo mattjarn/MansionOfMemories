@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 8
     y: 51
 <<<<<<< HEAD
@@ -27,10 +28,16 @@ MonoBehaviour:
     height: 981
 >>>>>>> Thomas-Temp
 >>>>>>> master
+=======
+    x: 0
+    y: 54
+    width: 1920
+    height: 976
+>>>>>>> master
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -50,6 +57,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1904
     height: 931
@@ -74,6 +82,14 @@ MonoBehaviour:
   controlID: 34
 >>>>>>> Thomas-Temp
 >>>>>>> master
+=======
+    width: 1920
+    height: 926
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
+  vertical: 0
+  controlID: 76
+>>>>>>> master
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,14 +105,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     x: 1040
+=======
+    x: 1531
+>>>>>>> master
     y: 0
-    width: 277
-    height: 740
+    width: 389
+    height: 926
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
+<<<<<<< HEAD
 =======
 >>>>>>> master
     x: 1518
@@ -108,6 +129,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
 >>>>>>> master
   m_ActualView: {fileID: 14}
   m_Panes:
@@ -131,6 +154,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     width: 257
@@ -146,6 +170,12 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    width: 269
+    height: 646
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
 >>>>>>> master
   m_ActualView: {fileID: 15}
   m_Panes:
@@ -168,6 +198,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 563
     width: 1518
     height: 368
@@ -181,6 +212,11 @@ MonoBehaviour:
     width: 1518
     height: 368
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    y: 646
+    width: 1531
+    height: 280
 >>>>>>> master
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -210,6 +246,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1904
     height: 981
 =======
@@ -220,6 +257,10 @@ MonoBehaviour:
     width: 1904
     height: 981
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    width: 1920
+    height: 976
 >>>>>>> master
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -240,6 +281,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1904
 =======
 <<<<<<< HEAD
@@ -247,6 +289,9 @@ MonoBehaviour:
 =======
     width: 1904
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    width: 1920
 >>>>>>> master
     height: 30
   m_MinSize: {x: 0, y: 0}
@@ -268,6 +313,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 961
     width: 1904
 =======
@@ -278,6 +324,10 @@ MonoBehaviour:
     y: 961
     width: 1904
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    y: 956
+    width: 1920
 >>>>>>> master
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -301,6 +351,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     width: 1040
@@ -313,13 +364,20 @@ MonoBehaviour:
 >>>>>>> master
     width: 1518
     height: 931
+=======
+    width: 1531
+    height: 926
+>>>>>>> master
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 10
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
 >>>>>>> master
 --- !u!114 &10
 MonoBehaviour:
@@ -340,6 +398,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     width: 1040
@@ -350,11 +409,14 @@ MonoBehaviour:
 >>>>>>> master
     width: 1518
     height: 563
+=======
+    width: 1531
+    height: 646
+>>>>>>> master
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
->>>>>>> Thomas-Temp
   vertical: 0
-  controlID: 50
+  controlID: 11
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,6 +431,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 376
     y: 0
 <<<<<<< HEAD
@@ -383,9 +446,14 @@ MonoBehaviour:
 >>>>>>> master
     width: 1142
     height: 563
+=======
+    x: 269
+    y: 0
+    width: 1262
+    height: 646
+>>>>>>> master
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
->>>>>>> Thomas-Temp
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -409,7 +477,7 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
@@ -436,12 +504,13 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 8
 <<<<<<< HEAD
     y: 663
@@ -458,6 +527,12 @@ MonoBehaviour:
     height: 347
 >>>>>>> Thomas-Temp
 >>>>>>> master
+=======
+    x: 0
+    y: 749
+    width: 1529
+    height: 259
+>>>>>>> master
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -473,9 +548,10 @@ MonoBehaviour:
     m_Folders:
     - Assets/Scripts
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 16
   m_LastFolders:
   - Assets/Scripts
+<<<<<<< HEAD
   m_LastFoldersGridSize: -1
 <<<<<<< HEAD
 =======
@@ -491,16 +567,26 @@ MonoBehaviour:
 =======
 >>>>>>> master
   m_LastProjectPath: C:\Users\tab749\Documents\GitHub\MansionOfMemories\Mansion of
+=======
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: C:\Users\thoma\Desktop\New folder\MansionOfMemories\Mansion of
+>>>>>>> master
     Memories
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 289b0000
     m_LastClickedID: 39720
     m_ExpandedIDs: 00000000f4780000a87a0000967b0000127c00002c7e00001e8200002c84000094860000de860000d687000022880000648900006a890000388b00004c8c0000c88c0000f08c0000d88f00001a900000ea920000be9400003a950000949a0000c69a0000269b00003ea5000038a60000b8a8000036ac000078ac00007eaf00008caf0000a4af00008ab000008cb000008eb0000090b0000092b0000094b0000096b0000098b000009ab000009cb000009eb00000a0b00000a2b00000a4b00000a6b00000a8b00000aab00000acb00000aeb0000000ca9a3bffffff7f
 <<<<<<< HEAD
 =======
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    m_SelectedIDs: 704f0000
+    m_LastClickedID: 20336
+    m_ExpandedIDs: 00000000102b0000cc2c0000c22d0000482e00008e300000be340000ee3600008c390000ea390000f83a0000483b00008e3c0000943c0000943e0000c43f000046400000764000008e430000d6430000d8460000b84800003a490000d24e00000a4f00006e4f0000005a00000e5b0000ae5d00004a6100008e610000c8640000d6640000ee6400009e720000a0720000a2720000a4720000a6720000a8720000aa720000ac720000ae720000b0720000b2720000b4720000b6720000b8720000ba720000bc720000be720000c0720000c272000000ca9a3bffffff7f
 >>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -530,6 +616,7 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000f4780000a87a0000967b0000127c00002c7e00001e8200002c84000094860000de860000d687000022880000648900006a890000388b00004c8c0000c88c0000f08c0000d88f00001a900000ea920000be9400003a950000949a0000c69a0000269b00003ea5000038a60000b8a8000036ac000078ac00007eaf00008caf0000a4af00008ab000008cb000008eb0000090b0000092b0000094b0000096b0000098b000009ab000009cb000009eb00000a0b00000a2b00000a4b00000a6b00000a8b00000aab00000acb00000aeb00000
 =======
 <<<<<<< HEAD
@@ -537,6 +624,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000f4780000a87a0000967b0000127c00002c7e00001e8200002c84000094860000de860000d687000022880000648900006a890000388b00004c8c0000c88c0000f08c0000d88f00001a900000ea920000be9400003a950000949a0000c69a0000269b00003ea5000038a60000b8a8000036ac000078ac00007eaf00008caf0000a4af00008ab000008cb000008eb0000090b0000092b0000094b0000096b0000098b000009ab000009cb000009eb00000a0b00000a2b00000a4b00000a6b00000a8b00000aab00000acb00000aeb00000
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    m_ExpandedIDs: 00000000102b0000cc2c0000c22d0000482e00008e300000be340000ee3600008c390000ea390000f83a0000483b00008e3c0000943c0000943e0000c43f000046400000764000008e430000d6430000d8460000b84800003a490000d24e00000a4f00006e4f0000005a00000e5b0000ae5d00004a6100008e610000c8640000d6640000ee6400009e720000a0720000a2720000a4720000a6720000a8720000aa720000ac720000ae720000b0720000b2720000b4720000b6720000b8720000ba720000bc720000be720000c0720000c2720000
 >>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -589,9 +679,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
-  m_DirectoriesAreaWidth: 115
+    m_ScrollPosition: {x: 0, y: 18}
+    m_GridSize: 16
+  m_DirectoriesAreaWidth: 343
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -608,12 +698,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1528
     y: 100
 <<<<<<< HEAD
@@ -628,6 +719,12 @@ MonoBehaviour:
     width: 384
     height: 910
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    x: 1533
+    y: 103
+    width: 387
+    height: 905
 >>>>>>> master
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
@@ -653,12 +750,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 8
     y: 100
 <<<<<<< HEAD
@@ -676,34 +774,45 @@ MonoBehaviour:
 >>>>>>> master
     width: 374
     height: 542
+=======
+    x: 0
+    y: 103
+    width: 267
+    height: 625
+>>>>>>> master
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7a070000
+    m_SelectedIDs: 62080000
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0e8dffff928dffff7e8fffff0000000010b10000
 <<<<<<< HEAD
 =======
 >>>>>>> Thomas-Temp
 >>>>>>> master
+=======
+    m_ExpandedIDs: f0faffff14fbffff98fbffff00000000aa680000
+>>>>>>> master
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Text
+      m_OriginalName: Text
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -1270
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - Temp
 =======
@@ -712,6 +821,9 @@ MonoBehaviour:
 =======
   - Temp
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+  - Start Menu
 >>>>>>> master
   m_CurrenRootInstanceID: 0
   m_Locked: 0
@@ -732,12 +844,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 386
 =======
@@ -761,10 +874,20 @@ MonoBehaviour:
   lastFramingTime: 0
 >>>>>>> Thomas-Temp
 >>>>>>> master
+=======
+    x: 271
+    y: 103
+    width: 1258
+    height: 625
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneLighting: 1
+  lastFramingTime: 0
+>>>>>>> master
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
@@ -779,6 +902,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    m_Target: {x: 1.3223022, y: -2.9581308, z: 7.1184278}
+    speed: 2
+    m_Value: {x: 1.3223022, y: -2.9581308, z: 7.1184278}
 >>>>>>> master
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
@@ -804,6 +932,7 @@ MonoBehaviour:
       m_Value: 0
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.0014858221, y: 0.9935584, z: -0.112560816, w: -0.013114693}
     speed: 2
     m_Value: {x: -0.0014858204, y: 0.9935572, z: -0.11256068, w: -0.013114677}
@@ -814,11 +943,15 @@ MonoBehaviour:
 =======
 <<<<<<< HEAD
     m_Target: {x: 0.08413551, y: 0.77968514, z: -0.107339256, w: 0.6111388}
+=======
+    m_Target: {x: 0.028879853, y: 0.87480426, z: -0.052551124, w: 0.48075134}
+>>>>>>> master
     speed: 2
-    m_Value: {x: 0.08413551, y: 0.77968514, z: -0.107339256, w: 0.6111388}
+    m_Value: {x: 0.028879851, y: 0.87480426, z: -0.05255112, w: 0.4807513}
   m_Size:
-    m_Target: 3.6673827
+    m_Target: 0.19048429
     speed: 2
+<<<<<<< HEAD
     m_Value: 3.6673827
 =======
     m_Target: {x: -0.0014858221, y: 0.9935584, z: -0.112560816, w: -0.013114693}
@@ -829,6 +962,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 7.54305
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    m_Value: 0.19048429
 >>>>>>> master
   m_Ortho:
     m_Target: 0
@@ -857,12 +993,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 386
     y: 100
 <<<<<<< HEAD
@@ -878,6 +1015,12 @@ MonoBehaviour:
     height: 542
 >>>>>>> Thomas-Temp
 >>>>>>> master
+=======
+    x: 271
+    y: 103
+    width: 1258
+    height: 625
+>>>>>>> master
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -887,6 +1030,7 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -903,6 +1047,12 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+    m_HBaseRangeMin: -629
+    m_HBaseRangeMax: 629
+    m_VBaseRangeMin: -304
+    m_VBaseRangeMax: 304
 >>>>>>> master
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
@@ -921,6 +1071,7 @@ MonoBehaviour:
       x: 0
       y: 17
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
       width: 779
@@ -937,12 +1088,19 @@ MonoBehaviour:
 =======
 >>>>>>> Thomas-Temp
 >>>>>>> master
+=======
+      width: 1258
+      height: 608
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 629, y: 304}
+>>>>>>> master
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -960,10 +1118,17 @@ MonoBehaviour:
 =======
 >>>>>>> Thomas-Temp
 >>>>>>> master
+=======
+      x: -629
+      y: -304
+      width: 1258
+      height: 608
+>>>>>>> master
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_LastWindowPixelSize: {x: 1138, y: 542}
 =======
@@ -972,6 +1137,9 @@ MonoBehaviour:
 =======
   m_LastWindowPixelSize: {x: 1138, y: 542}
 >>>>>>> Thomas-Temp
+>>>>>>> master
+=======
+  m_LastWindowPixelSize: {x: 1258, y: 625}
 >>>>>>> master
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -992,7 +1160,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
