@@ -9,13 +9,15 @@ public class CollectibleTracker : MonoBehaviour
     private static int totalNumberOfCollectibles;
     public static int numberOfCollectiblesLeft;
 
-    private void Awake()
+    public static void Initialize(List<GameObject> collectiblesList)
     {
-        collectibles = AssignObjects.collectableObjects;
+        collectibles = collectiblesList;
         if (collectibles != null)
         {
             totalNumberOfCollectibles = collectibles.Count;
             numberOfCollectiblesLeft = totalNumberOfCollectibles;
+            print(numberOfCollectiblesLeft);
+            print(totalNumberOfCollectibles);
         }
         GameObject.Find("TotalCollectibles").GetComponent<Text>().text = "Number of Total Collectibles:   " + totalNumberOfCollectibles.ToString();
         GameObject.Find("CollectiblesLeft").GetComponent<Text>().text = "Number of Collectibles Left:   " + numberOfCollectiblesLeft.ToString();
