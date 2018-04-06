@@ -12,19 +12,20 @@ public class AssignObjects : MonoBehaviour
     public List<GameObject> objects;
     static public List<GameObject> collectableObjects;
 
-    private void Awake()
+    private void Start()
     {
         collectableObjects = objects;
         CollectibleTracker.Initialize(collectableObjects);
         placements = GameObject.FindGameObjectsWithTag("ObjectNeeded");
+        
         for(int i=0; i<placements.Length;i++)
         {
             placementPoints.Add(placements[i]);
         }
 
-
         for (int j = 0; j < numOfObjects; j++)
         {
+            print(j);
             int ind = Random.Range(0, placementPoints.Count);
             Vector3 position = new Vector3(placementPoints[ind].transform.position.x, placementPoints[ind].transform.position.y, placementPoints[ind].transform.position.z);
 

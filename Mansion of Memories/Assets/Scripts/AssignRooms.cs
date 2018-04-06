@@ -10,7 +10,6 @@ public class AssignRooms : MonoBehaviour
 
     private void Awake()
     {
-
         placementPoints = GameObject.FindGameObjectsWithTag("Placeable");
 
         for(int i=0; i<placementPoints.Length;i++) {
