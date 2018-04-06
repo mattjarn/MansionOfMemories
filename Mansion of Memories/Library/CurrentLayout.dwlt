@@ -53,6 +53,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 90
 =======
     width: 981
@@ -62,6 +63,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 129
 >>>>>>> Thomas-Temp
+=======
+  controlID: 34
+>>>>>>> Matt
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,7 +268,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 104
+  controlID: 90
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -401,17 +405,26 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/Imported Assests/VRTK
+=======
+    - Assets/Prefabs/Collectables
+>>>>>>> Matt
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scenes
+=======
+  - Assets/Prefabs/Collectables
+>>>>>>> Matt
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mattj\OneDrive\Documents\GitHub\MansionOfMemories\Mansion
     of Memories
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 5e4a0000
     m_LastClickedID: 19038
@@ -428,6 +441,12 @@ MonoBehaviour:
     m_LastClickedID: 0
     m_ExpandedIDs: 00000000cc57000084590000765a0000365d0000546100007c6300000a660000566600005c670000aa670000ec680000f2680000f26a0000326b00001e6c0000966c0000c46c0000c66f00000c700000f8720000d074000052750000c47a0000fa7a00005e7b0000328000001c850000cc850000d48600006c890000f48c0000368d00006c9000008290000016fc000018fc00001afc00001cfc00001efc000020fc000022fc000024fc000026fc000028fc00002afc00002cfc00002efc000030fc000032fc000034fc000036fc000038fc00003afc000000ca9a3bffffff7f
 >>>>>>> Thomas-Temp
+=======
+    scrollPos: {x: 0, y: 118}
+    m_SelectedIDs: a23e0000
+    m_LastClickedID: 16034
+    m_ExpandedIDs: 00000000a43a00005a3c0000483d0000ca3d0000fc3f0000fa4300001646000098480000e4480000ec490000384a00007c4b0000824b00005a4d0000704e0000ec4e0000164f00000c52000050520000345500000e5700008c570000005d0000345d0000945d0000f2670000f26800007e6b0000506d0000086f00004c6f00006a7200007872000090720000d8770000da770000dc770000de770000e0770000e2770000e4770000e6770000e8770000ea770000ec770000ee770000f0770000f2770000f4770000f6770000f8770000fa770000fc77000000ca9a3bffffff7f
+>>>>>>> Matt
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -456,10 +475,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000f62a0000b22c0000a82d00002e2e000076300000a4340000d436000074390000d0390000de3a00002e3b0000763c00007c3c00007e3e0000ae3f0000304000006040000078430000c0430000be460000a048000022490000ba4e0000f24e0000564f0000ec590000fa5a00009a5d0000366100007a610000b4640000c2640000da640000827100008471000086710000887100008a7100008c7100008e71000090710000927100009471000096710000987100009a7100009c7100009e710000a0710000a2710000a4710000a6710000
 =======
     m_ExpandedIDs: 00000000cc57000084590000765a0000365d0000546100007c6300000a660000566600005c670000aa670000ec680000f2680000f26a0000326b00001e6c0000966c0000c46c0000c66f00000c70000080710000f8720000d074000052750000c47a0000fa7a00005e7b0000328000001c850000cc850000d48600006c890000468b0000f48c0000368d00005e9000006c9000008290000016fc000018fc00001afc00001cfc00001efc000020fc000022fc000024fc000026fc000028fc00002afc00002cfc00002efc000030fc000032fc000034fc000036fc000038fc00003afc0000
 >>>>>>> Thomas-Temp
+=======
+    m_ExpandedIDs: 00000000a43a00005a3c0000483d0000ca3d0000fc3f0000fa4300001646000098480000e4480000ec490000384a00007c4b0000824b00005a4d0000704e0000ec4e0000164f00000c52000050520000345500000e5700008c570000005d0000345d0000945d0000f2670000f26800007e6b0000086f00004c6f00006a7200007872000090720000d8770000da770000dc770000de770000e0770000e2770000e4770000e6770000e8770000ea770000ec770000ee770000f0770000f2770000f4770000f6770000f8770000fa770000fc770000
+>>>>>>> Matt
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -590,6 +613,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 62f10000
     m_LastClickedID: 61794
     m_ExpandedIDs: 94b5feff9cb5feffa2b5feff9806ffff9a06ffffe210ffffe4f8ffff8afbffff92fbffff98fbffff00000000ea860000
@@ -605,6 +629,11 @@ MonoBehaviour:
     m_LastClickedID: -131278
     m_ExpandedIDs: 9a32ffff6a7dffff7c7dffff7e7dffff827dffff20e5ffff00000000
 >>>>>>> Thomas-Temp
+=======
+    m_SelectedIDs: bcdeffff
+    m_LastClickedID: -8516
+    m_ExpandedIDs: a0dfffffbcdfffff00000000
+>>>>>>> Matt
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -660,6 +689,7 @@ MonoBehaviour:
     height: 427
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
+<<<<<<< HEAD
   lastFramingTime: 240.54643323463426
 =======
     x: 210
@@ -670,10 +700,14 @@ MonoBehaviour:
   m_SceneLighting: 1
   lastFramingTime: 953.2843021803823
 >>>>>>> Thomas-Temp
+=======
+  lastFramingTime: 2195.4886632727275
+>>>>>>> Matt
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: -30.81874, y: -6.118796, z: -50.61137}
     speed: 2
@@ -683,6 +717,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.0889384, y: 1.3651559, z: 1.7941506}
 >>>>>>> Thomas-Temp
+=======
+    m_Target: {x: 6.4346256, y: -2.712704, z: -7.5593925}
+    speed: 2
+    m_Value: {x: 6.4346256, y: -2.712704, z: -7.5593925}
+>>>>>>> Matt
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -707,12 +746,17 @@ MonoBehaviour:
       m_Value: 0
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.010922449, y: 0.9489126, z: -0.033048015, w: -0.31361338}
+=======
+    m_Target: {x: -0.041911565, y: 0.95669436, z: -0.2283625, w: -0.17558472}
+>>>>>>> Matt
     speed: 2
-    m_Value: {x: -0.010922449, y: 0.9489126, z: -0.033048015, w: -0.31361338}
+    m_Value: {x: -0.041911565, y: 0.95669436, z: -0.2283625, w: -0.17558472}
   m_Size:
-    m_Target: 74.74955
+    m_Target: 2.867165
     speed: 2
+<<<<<<< HEAD
     m_Value: 74.74955
 =======
     m_Target: {x: 0.04978961, y: 0.0092987735, z: -0.00044852754, w: 0.99876726}
@@ -723,6 +767,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 1.8020616
 >>>>>>> Thomas-Temp
+=======
+    m_Value: 2.867165
+>>>>>>> Matt
   m_Ortho:
     m_Target: 0
     speed: 2
