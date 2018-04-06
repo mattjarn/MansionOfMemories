@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
+
 using VRTK;
 
 public class MenuToggle : MonoBehaviour {
@@ -32,5 +34,9 @@ public class MenuToggle : MonoBehaviour {
         }
         menuState = !menuState;
         menu.SetActive(menuState);
+        if (menu.activeInHierarchy)
+        {
+            GameObject.Find("CollectiblesLeft").GetComponent<Text>().text = "Number of Collectibles Left:   " + CollectibleTracker.numberOfCollectiblesLeft.ToString();
+        }
     }
 }
