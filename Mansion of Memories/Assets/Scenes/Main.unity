@@ -2787,6 +2787,171 @@ Transform:
   m_PrefabParentObject: {fileID: 4515249635682636, guid: a2591f1b2e67e804cb359e4560a300b4,
     type: 2}
   m_PrefabInternal: {fileID: 972622040}
+--- !u!1 &127061758 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1678059214775652, guid: ce376dbd747cc82468082308eb053d4f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1091763015}
+--- !u!82 &127061759
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 127061758}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0728bdf6bf2588442bc489252d5eeb92, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.327
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0.70069075
+  MaxDistance: 5
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.005963793
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.996521
+      value: 1.0023346
+      inSlope: 0.065552294
+      outSlope: 0.065552294
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &127061760
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 127061758}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 53936e519c32f2c41a361395daad8ef9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.099
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0.70069075
+  MaxDistance: 5
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.005963793
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.996521
+      value: 1.0023346
+      inSlope: 0.065552294
+      outSlope: 0.065552294
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1001 &129038401
 Prefab:
   m_ObjectHideFlags: 0
@@ -5521,9 +5686,69 @@ Prefab:
       propertyPath: m_ConnectedAnchor.y
       value: 2.9472213
       objectReference: {fileID: 0}
+    - target: {fileID: 4079474502395332, guid: 44d3c3fc74ba5e24799be9cb26819fd5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.31
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44d3c3fc74ba5e24799be9cb26819fd5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &293441112 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1319447367099614, guid: 44d3c3fc74ba5e24799be9cb26819fd5,
+    type: 2}
+  m_PrefabInternal: {fileID: 293441110}
+--- !u!114 &293441113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 293441112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
+--- !u!1 &293441114 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1886092001583740, guid: 44d3c3fc74ba5e24799be9cb26819fd5,
+    type: 2}
+  m_PrefabInternal: {fileID: 293441110}
+--- !u!114 &293441115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 293441114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!1 &297710797
 GameObject:
   m_ObjectHideFlags: 0
@@ -6775,6 +7000,10 @@ Prefab:
     - target: {fileID: 4694653367355104, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
       propertyPath: m_LocalScale.z
       value: -0.00012
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253020657197148, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
@@ -9979,6 +10208,118 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 48550a7cddc327e4a8306fd9fabbd808, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &581100276 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1038015460222648, guid: 48550a7cddc327e4a8306fd9fabbd808,
+    type: 2}
+  m_PrefabInternal: {fileID: 581100274}
+--- !u!114 &581100277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581100276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
+--- !u!1 &581100278 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1269395671934822, guid: 48550a7cddc327e4a8306fd9fabbd808,
+    type: 2}
+  m_PrefabInternal: {fileID: 581100274}
+--- !u!114 &581100279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581100278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
+--- !u!1 &581100280 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1370610222793828, guid: 48550a7cddc327e4a8306fd9fabbd808,
+    type: 2}
+  m_PrefabInternal: {fileID: 581100274}
+--- !u!114 &581100281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581100280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
+--- !u!1 &581100285 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1784377022650790, guid: 48550a7cddc327e4a8306fd9fabbd808,
+    type: 2}
+  m_PrefabInternal: {fileID: 581100274}
+--- !u!114 &581100286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581100285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!1001 &581403265
 Prefab:
   m_ObjectHideFlags: 0
@@ -12174,6 +12515,34 @@ Transform:
   m_PrefabParentObject: {fileID: 4200699062770882, guid: 4007f4a86e1146f419e083cc1f5fb6b1,
     type: 2}
   m_PrefabInternal: {fileID: 741455159}
+--- !u!1 &742709252 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1020849952599730, guid: 385a876f67b954849a51dcd4653c489c,
+    type: 2}
+  m_PrefabInternal: {fileID: 65968964}
+--- !u!114 &742709253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742709252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!1001 &744370633
 Prefab:
   m_ObjectHideFlags: 0
@@ -14477,6 +14846,34 @@ Transform:
   m_PrefabParentObject: {fileID: 4200699062770882, guid: 4007f4a86e1146f419e083cc1f5fb6b1,
     type: 2}
   m_PrefabInternal: {fileID: 890958954}
+--- !u!1 &904295298 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1995242678608452, guid: 385a876f67b954849a51dcd4653c489c,
+    type: 2}
+  m_PrefabInternal: {fileID: 65968964}
+--- !u!114 &904295299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 904295298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!1001 &907094506
 Prefab:
   m_ObjectHideFlags: 0
@@ -16557,6 +16954,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: -0.00012
       objectReference: {fileID: 0}
+    - target: {fileID: 1253020657197148, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
   m_IsPrefabParent: 0
@@ -17225,6 +17626,26 @@ Prefab:
         type: 2}
       propertyPath: maximumLength
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678059214775652, guid: ce376dbd747cc82468082308eb053d4f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469842191620192, guid: ce376dbd747cc82468082308eb053d4f, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777497159596548, guid: ce376dbd747cc82468082308eb053d4f, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678059214775652, guid: ce376dbd747cc82468082308eb053d4f, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834080327543202, guid: ce376dbd747cc82468082308eb053d4f, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce376dbd747cc82468082308eb053d4f, type: 2}
@@ -18199,6 +18620,10 @@ Prefab:
     - target: {fileID: 1253020657197148, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
       propertyPath: m_Name
       value: LightSwitch - Right Side Lower Level
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253020657197148, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
@@ -23326,6 +23751,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1483557886 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1310762697422476, guid: 385a876f67b954849a51dcd4653c489c,
+    type: 2}
+  m_PrefabInternal: {fileID: 65968964}
+--- !u!114 &1483557887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1483557886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!1001 &1486292998
 Prefab:
   m_ObjectHideFlags: 0
@@ -25240,6 +25693,71 @@ Transform:
   m_PrefabParentObject: {fileID: 4200699062770882, guid: 4007f4a86e1146f419e083cc1f5fb6b1,
     type: 2}
   m_PrefabInternal: {fileID: 1566044901}
+--- !u!1 &1567620629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1567620630}
+  - component: {fileID: 1567620631}
+  m_Layer: 0
+  m_Name: Point light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1567620630
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1567620629}
+  m_LocalRotation: {x: -0.000000082459394, y: 0.6982059, z: -0.00000014715401, w: -0.71589714}
+  m_LocalPosition: {x: -10.169576, y: 2.3769999, z: -1.0789518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1898532418}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1567620631
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1567620629}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &1570834133
 Prefab:
   m_ObjectHideFlags: 0
@@ -26138,6 +26656,34 @@ Transform:
   m_PrefabParentObject: {fileID: 4218033372937396, guid: 9c0c9cf763203de4f884e6f367ec8953,
     type: 2}
   m_PrefabInternal: {fileID: 1613013470}
+--- !u!1 &1625984361 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1135945464472424, guid: 385a876f67b954849a51dcd4653c489c,
+    type: 2}
+  m_PrefabInternal: {fileID: 65968964}
+--- !u!114 &1625984362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1625984361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!1001 &1640246387
 Prefab:
   m_ObjectHideFlags: 0
@@ -26555,6 +27101,34 @@ Transform:
   m_PrefabParentObject: {fileID: 4976452479641684, guid: 42d3c69b1709c8c46b2803dcc7998b14,
     type: 2}
   m_PrefabInternal: {fileID: 1676655173}
+--- !u!1 &1677968741 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1740642071744376, guid: 385a876f67b954849a51dcd4653c489c,
+    type: 2}
+  m_PrefabInternal: {fileID: 65968964}
+--- !u!114 &1677968742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677968741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!1001 &1693650884
 Prefab:
   m_ObjectHideFlags: 0
@@ -28801,6 +29375,174 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1846068421 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1213457438536460, guid: 30aab1e1213aeff438510e35bcef5b63,
+    type: 2}
+  m_PrefabInternal: {fileID: 1846068419}
+--- !u!114 &1846068422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846068421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
+--- !u!1 &1846068423 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1965167830599734, guid: 30aab1e1213aeff438510e35bcef5b63,
+    type: 2}
+  m_PrefabInternal: {fileID: 1846068419}
+--- !u!114 &1846068424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846068423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
+--- !u!1 &1846068425 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1558212147539084, guid: 30aab1e1213aeff438510e35bcef5b63,
+    type: 2}
+  m_PrefabInternal: {fileID: 1846068419}
+--- !u!114 &1846068426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846068425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
+--- !u!1 &1846068427 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1274504353673452, guid: 30aab1e1213aeff438510e35bcef5b63,
+    type: 2}
+  m_PrefabInternal: {fileID: 1846068419}
+--- !u!114 &1846068428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846068427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
+--- !u!1 &1846068429 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1418970047199344, guid: 30aab1e1213aeff438510e35bcef5b63,
+    type: 2}
+  m_PrefabInternal: {fileID: 1846068419}
+--- !u!114 &1846068430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846068429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
+--- !u!1 &1846068431 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1171607044685438, guid: 30aab1e1213aeff438510e35bcef5b63,
+    type: 2}
+  m_PrefabInternal: {fileID: 1846068419}
+--- !u!114 &1846068432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846068431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!4 &1846784817 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4526938737098722, guid: ddea376334989304b8df17d12bea004a,
@@ -28899,6 +29641,10 @@ Prefab:
     - target: {fileID: 4694653367355104, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
       propertyPath: m_LocalScale.z
       value: -0.00012
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253020657197148, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fd07723e4139a341b2b51ec29dae056, type: 2}
@@ -29813,6 +30559,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4976452479641684, guid: 42d3c69b1709c8c46b2803dcc7998b14,
     type: 2}
   m_PrefabInternal: {fileID: 1895881592}
+--- !u!4 &1898532418 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4549690321054158, guid: 44d3c3fc74ba5e24799be9cb26819fd5,
+    type: 2}
+  m_PrefabInternal: {fileID: 293441110}
 --- !u!1001 &1899290676
 Prefab:
   m_ObjectHideFlags: 0
@@ -30224,6 +30975,34 @@ Transform:
   m_PrefabParentObject: {fileID: 4976452479641684, guid: 42d3c69b1709c8c46b2803dcc7998b14,
     type: 2}
   m_PrefabInternal: {fileID: 1935012151}
+--- !u!1 &1936900763 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1359933312659426, guid: 385a876f67b954849a51dcd4653c489c,
+    type: 2}
+  m_PrefabInternal: {fileID: 65968964}
+--- !u!114 &1936900764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1936900763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!1001 &1938604624
 Prefab:
   m_ObjectHideFlags: 0
@@ -32699,6 +33478,30 @@ Prefab:
     - target: {fileID: 4589890302289636, guid: 52654443d1e0510488fc7a364c7f7563, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135408531135960554, guid: 52654443d1e0510488fc7a364c7f7563,
+        type: 2}
+      propertyPath: m_Radius
+      value: 24.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 82715164786489782, guid: 52654443d1e0510488fc7a364c7f7563,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395066902525496, guid: 52654443d1e0510488fc7a364c7f7563, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 82715164786489782, guid: 52654443d1e0510488fc7a364c7f7563,
+        type: 2}
+      propertyPath: MinDistance
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 82715164786489782, guid: 52654443d1e0510488fc7a364c7f7563,
+        type: 2}
+      propertyPath: MaxDistance
+      value: 3.680128
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52654443d1e0510488fc7a364c7f7563, type: 2}

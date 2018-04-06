@@ -9,4 +9,9 @@ public class PlaySound : MonoBehaviour {
     {
         sound.Play();
     }
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //        sound.Play();
+    //}
 }
