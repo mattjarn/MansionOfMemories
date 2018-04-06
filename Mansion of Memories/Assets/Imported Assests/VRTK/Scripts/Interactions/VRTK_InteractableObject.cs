@@ -226,7 +226,7 @@ namespace VRTK
             if (this.tag == "Collectable")
             {
                 this.gameObject.SetActive(false);
-                //Destroy(this);
+                CollectibleTracker.RemoveCollectible(this.gameObject);
             }
             if (InteractableObjectGrabbed != null)
             {
