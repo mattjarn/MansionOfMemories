@@ -10,7 +10,7 @@ public class AssignObjects : MonoBehaviour
     GameObject[] placements;
     List<GameObject> placementPoints = new List<GameObject>();
     public List<GameObject> objects;
-    public List<GameObject> collectableObjects;
+    static public List<GameObject> collectableObjects;
 
     private void Awake()
     {
