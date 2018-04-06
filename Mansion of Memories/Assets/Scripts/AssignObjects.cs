@@ -15,7 +15,7 @@ public class AssignObjects : MonoBehaviour
     private void Awake()
     {
         collectableObjects = objects;
-
+        CollectibleTracker.Initialize(collectableObjects);
         placements = GameObject.FindGameObjectsWithTag("ObjectNeeded");
         for(int i=0; i<placements.Length;i++)
         {

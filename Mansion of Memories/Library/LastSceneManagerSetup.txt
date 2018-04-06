@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Start Menu.unity
+=======
+- path: Assets/Scenes/Temp.unity
+>>>>>>> Thomas-Temp
   isLoaded: 1
   isActive: 1
