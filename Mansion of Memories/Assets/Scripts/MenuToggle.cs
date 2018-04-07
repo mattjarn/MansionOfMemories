@@ -3,7 +3,8 @@ using UnityEngine.UI;
 
 using VRTK;
 
-public class MenuToggle : MonoBehaviour {
+public class MenuToggle : MonoBehaviour
+{
     public VRTK_ControllerEvents controllerEvents;
     public GameObject menu;
 
@@ -19,14 +20,15 @@ public class MenuToggle : MonoBehaviour {
         controllerEvents.ButtonTwoReleased -= ControllerEvents_ButtonTwoReleased;
     }
 
-    private void ControllerEvents_ButtonTwoReleased( object sender, ControllerInteractionEventArgs e)
+    private void ControllerEvents_ButtonTwoReleased(object sender, ControllerInteractionEventArgs e)
     {
         if (GetComponent<VRTK_StraightPointerRenderer>().enabled)
         {
             GetComponent<VRTK_StraightPointerRenderer>().enabled = false;
             GetComponent<VRTK_BezierPointerRenderer>().enabled = true;
             GetComponent<VRTK_Pointer>().pointerRenderer = GetComponent<VRTK_BezierPointerRenderer>();
-        } else
+        }
+        else
         {
             GetComponent<VRTK_StraightPointerRenderer>().enabled = true;
             GetComponent<VRTK_BezierPointerRenderer>().enabled = false;
@@ -36,12 +38,14 @@ public class MenuToggle : MonoBehaviour {
         menu.SetActive(menuState);
         if (menu.activeInHierarchy)
         {
-            if(CollectibleTracker.numberOfCollectiblesLeft==0)
+            if (CollectibleTracker.numberOfCollectiblesLeft == 0)
             {
-                GameObject.Find("TotalCollectibles").GetComponent<Text>().enabled = false;
                 GameObject.Find("CollectiblesLeft").GetComponent<Text>().text = "You've found all the items!";
             }
-            GameObject.Find("CollectiblesLeft").GetComponent<Text>().text = "Number of Collectibles Left:   " + CollectibleTracker.numberOfCollectiblesLeft.ToString();
+            else
+            {
+                GameObject.Find("CollectiblesLeft").GetComponent<Text>().text = "Number of Collectibles Left:   " + CollectibleTracker.numberOfCollectiblesLeft.ToString();
+            }
         }
     }
 }

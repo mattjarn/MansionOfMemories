@@ -16,7 +16,7 @@ public class LightFlicker : MonoBehaviour {
     private void Update()
     {
 
-            if (Random.value > 0.9)
+            if (Random.value > 0.99)
             {
                 if (lt.enabled != true)
                 {
