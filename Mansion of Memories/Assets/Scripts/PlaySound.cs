@@ -7,7 +7,8 @@ public class PlaySound : MonoBehaviour {
     public AudioSource sound;
     private void OnTriggerEnter(Collider other)
     {
-        sound.Play();
+        if (other.gameObject.tag == "Player")
+            sound.Play();
     }
 
     //private void OnCollisionEnter(Collision collision)

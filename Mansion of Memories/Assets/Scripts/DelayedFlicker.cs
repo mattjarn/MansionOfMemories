@@ -7,6 +7,8 @@ public class DelayedFlicker : MonoBehaviour {
 
     public AudioSource fizzle;
 
+    public bool player;
+
     private void Start()
     {
         lt = GetComponent<Light>();  
@@ -14,6 +16,8 @@ public class DelayedFlicker : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     { 
+        if(other.gameObject.tag == "Player")
+        {
             if (Random.value > 0.9)
             {
                 if (lt.enabled != true)
@@ -30,5 +34,6 @@ public class DelayedFlicker : MonoBehaviour {
                 }
             }
         }
-    
+    }
+
 }

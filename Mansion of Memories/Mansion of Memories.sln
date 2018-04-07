@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mansion of Memories", "Mansion of Memories.csproj", "{4927E5DC-55A9-2555-5C4B-EAE47F98E60F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mansion of Memories.Editor", "Mansion of Memories.Editor.csproj", "{A4D157CE-7EBF-105C-6E03-CC9EFD9A2E7E}"
