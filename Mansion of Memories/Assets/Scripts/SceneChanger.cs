@@ -6,13 +6,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour {
 
-	public void StartGame()
+public class SceneChanger : MonoBehaviour {
+    //Exposed easily reached methods for starting/restarting and ending the game
+    public void StartGame()
     {
             SceneManager.LoadScene("Main");
     }
-
+    //Exposed easily reached methods for starting/restarting and ending the game
     public void QuitGame()
     {
         Application.Quit();

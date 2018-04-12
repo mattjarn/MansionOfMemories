@@ -10,10 +10,13 @@ public class LightSwitch : MonoBehaviour
     AudioSource lightOnSound;
     AudioSource lightOffSound;
 
-    public bool lighted;
+    [Header ("Set in the Inspector")]
+    //Has the player activated the light
     public bool playerActivated;
-
+    //List of the lights to affect with the switch
     public Light[] lights;
+
+    private bool lighted;
     private Light[] flickeringLights;
     private Light[] notFlickering;
     private Light[] delayedFlickering;

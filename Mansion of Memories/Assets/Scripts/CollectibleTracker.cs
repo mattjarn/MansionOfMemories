@@ -9,7 +9,10 @@ using UnityEngine;
 public class CollectibleTracker : MonoBehaviour
 {
     private static List<GameObject> collectibles;
-    public static int numberOfCollectiblesLeft; 
+    [Header ("Set dymically")]
+    //This needs to be read from the Menu to display
+    public static int numberOfCollectiblesLeft;
+    //Exposed method to grab the list of collectibles and put a copy here in the member variable, collectibles
     public static void Initialize(List<GameObject> collectiblesList)
     {
         collectibles = collectiblesList;
@@ -19,6 +22,7 @@ public class CollectibleTracker : MonoBehaviour
         }
     }
 
+    //Exposed method to decrement the private member variable, numberOfCollectiblesLeft
     public static void RemoveCollectible()
     {
         numberOfCollectiblesLeft--;

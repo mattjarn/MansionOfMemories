@@ -7,23 +7,26 @@ using UnityEngine;
 
 public class LightFlicker : MonoBehaviour {
 
+    [Header ("Set in the Inspector")]
+    //Assign the light
     public Light lt;
-
+    //Assign the audiosource
     public AudioSource fizzle;
-
-    public bool player = false;
+    private bool player = false;
 
     private void Start()
     {
         lt = GetComponent<Light>();  
     }
 
+    //Set player bool true when leaving area
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
             player = true;
     }
 
+    //Set player bool false when leaving area
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Player")

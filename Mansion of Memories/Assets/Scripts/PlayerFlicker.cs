@@ -3,15 +3,17 @@
 //Date Modified: 4/4/18
 //Modified by: William Bennett
 
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class PlayerFlicker : MonoBehaviour {
+
+    [Header("Set in the Inspector")]
+    //The light switch
     public LightSwitch L;
-
+    //The light associated with it
     public Light lt;
-
+    //The audiosource to play
     public AudioSource fizzle;
 
     private void Start()

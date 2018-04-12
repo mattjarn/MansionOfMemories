@@ -6,9 +6,11 @@
 using UnityEngine;
 
 public class PlaySoundLoop : MonoBehaviour {
-
+    [Header("Set in the Inspector")]
+    //Audiosource
     public AudioSource sound;
 
+    //Plays the sound on loop while the player is in the area.
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
@@ -18,6 +20,7 @@ public class PlaySoundLoop : MonoBehaviour {
         }
     }
 
+    //Stops the sound when leaving the area
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Player")

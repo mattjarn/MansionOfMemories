@@ -3,14 +3,14 @@
 //Date Modified: 3/28/18
 //Modified by: Matt Jarnevic
 
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class RoomAssigner : MonoBehaviour
 {
     private GameObject[] placementPoints;
+    [Header ("Set in the Inspector")]
+    //The rooms which should be placed into the scene
     public List<GameObject> rooms;
 
     private void Awake()

@@ -6,11 +6,12 @@
 using UnityEngine;
 
 public class DelayedFlicker : MonoBehaviour {
+
+    [Header ("Set in the Inspector")]
+    //Assign the light
     public Light lt;
-
+    //Assign the audiosource
     public AudioSource fizzle;
-
-    public bool player;
 
     private void Start()
     {

@@ -3,14 +3,14 @@
 //Date Modified: 3/28/18
 //Modified by: Matt Jarnevic
 
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class AssignRooms : MonoBehaviour
 {
     private GameObject[] placementPoints;
+    [Header ("Set in the Inspector")]
+    //List of the rooms you want to be chosen from to spawn into the game.
     public List<GameObject> rooms;
 
     private void Awake()
@@ -50,8 +50,6 @@ public class AssignRooms : MonoBehaviour
             Instantiate(rooms[index], position, placementPoints[i].transform.rotation);
             rooms.RemoveAt(index);
         }
-        
-
     }
 }
 
