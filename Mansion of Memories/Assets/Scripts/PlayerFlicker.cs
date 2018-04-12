@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿//Author: William Bennett
+//Date Created: 3/22/18
+//Date Modified: 4/4/18
+//Modified by: William Bennett
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

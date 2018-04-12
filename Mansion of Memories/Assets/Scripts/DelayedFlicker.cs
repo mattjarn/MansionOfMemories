@@ -1,5 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//Author: William Bennett
+//Date Created: 3/26/18
+//Date Modified: 4/2/18
+//Modified by: William Bennett
+
 using UnityEngine;
 
 public class DelayedFlicker : MonoBehaviour {

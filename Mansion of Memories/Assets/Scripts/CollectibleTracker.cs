@@ -1,7 +1,10 @@
-﻿using System.Collections;
+﻿//Author: Thomas Barrow
+//Date Created: 4/1/18
+//Date Modified: 4/1/18
+//Modified by: Thomas Barrow
+
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class CollectibleTracker : MonoBehaviour
 {

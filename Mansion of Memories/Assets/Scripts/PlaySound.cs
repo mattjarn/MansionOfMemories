@@ -1,5 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//Author: William Bennett
+//Date Created: 3/22/18
+//Date Modified: 4/4/18
+//Modified by: William Bennett
+
 using UnityEngine;
 
 public class PlaySound : MonoBehaviour {
@@ -10,9 +13,4 @@ public class PlaySound : MonoBehaviour {
         if (other.gameObject.tag == "Player")
             sound.Play();
     }
-
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //        sound.Play();
-    //}
 }

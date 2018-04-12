@@ -1,7 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//Author: William Bennett
+//Date Created: 3/22/18
+//Date Modified: 4/4/18
+//Modified by: William Bennett
+
 using UnityEngine;
-using VRTK;
 
 public class LightSwitch : MonoBehaviour
 {

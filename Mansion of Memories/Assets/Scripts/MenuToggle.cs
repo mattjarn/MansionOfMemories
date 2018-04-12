@@ -1,4 +1,9 @@
-﻿using UnityEngine;
+﻿//Author: Thomas Barrow
+//Date Created: 4/4/18
+//Date Modified: 4/4/18
+//Modified by: Thomas Barrow
+
+using UnityEngine;
 using UnityEngine.UI;
 
 using VRTK;

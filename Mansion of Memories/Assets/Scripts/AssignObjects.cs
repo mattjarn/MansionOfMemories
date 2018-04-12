@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿//Author: Matt Jarnevic
+//Date Created: 3/22/18
+//Date Modified: 4/4/18
+//Modified by: Matt Jarnevic
+
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
