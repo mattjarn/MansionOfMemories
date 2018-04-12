@@ -689,12 +689,14 @@
     <Compile Include="Assets\Scripts\CollectibleTracker.cs" />
     <Compile Include="Assets\Scripts\CollectObjects.cs" />
     <Compile Include="Assets\Scripts\DelayedFlicker.cs" />
+    <Compile Include="Assets\Scripts\GenericTrigger.cs" />
     <Compile Include="Assets\Scripts\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\LightSwitch.cs" />
     <Compile Include="Assets\Scripts\MenuToggle.cs" />
     <Compile Include="Assets\Scripts\PlayerFlicker.cs" />
     <Compile Include="Assets\Scripts\PlaySound.cs" />
     <Compile Include="Assets\Scripts\PlaySoundLoop.cs" />
+    <Compile Include="Assets\Scripts\RoomAssigner.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
   </ItemGroup>
   <ItemGroup>

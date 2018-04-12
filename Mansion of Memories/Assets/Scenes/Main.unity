@@ -29876,6 +29876,14 @@ Prefab:
       propertyPath: m_Name
       value: Four-WayHallway (Matt-Cross)
       objectReference: {fileID: 0}
+    - target: {fileID: 4026447143877468, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15.697
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965151424459606, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30aab1e1213aeff438510e35bcef5b63, type: 2}
   m_IsPrefabParent: 0
