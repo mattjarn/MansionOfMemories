@@ -3,19 +3,20 @@
 //Date Modified: 4/4/18
 //Modified by: Matt Jarnevic
 
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
-using VRTK;
 
 public class AssignObjects : MonoBehaviour
 {
+    [Header("Set in Inspector")]
+    //The total number of interactable objects to instantiate into the scene.
     public int numOfObjects;
-    GameObject[] placements;
-    List<GameObject> placementPoints = new List<GameObject>();
+    //The list of objects to be placed.
     public List<GameObject> objects;
-    static public List<GameObject> collectableObjects;
+
+    private GameObject[] placements;
+    private List<GameObject> placementPoints = new List<GameObject>();
+    static private List<GameObject> collectableObjects;
 
     private void Start()
     {
@@ -37,7 +38,6 @@ public class AssignObjects : MonoBehaviour
             int index = Random.Range(0, objects.Count);
             GameObject go = Instantiate(objects[index], position, placementPoints[ind].transform.rotation);
             go.tag = "Collectable";
-            //go.AddComponent<Rigidbody>();
             objects.RemoveAt(index);
             placementPoints.RemoveAt(ind);
         }
