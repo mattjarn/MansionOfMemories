@@ -1,6 +1,6 @@
 ﻿//Author: Matt Jarnevic
 //Date Created: 3/22/18
-//Date Modified: 4/4/18
+//Date Modified: 4/13/18
 //Modified by: Matt Jarnevic
 
 using System.Collections.Generic;
@@ -13,11 +13,14 @@ public class AssignObjects : MonoBehaviour
     public int numOfObjects;
     //The list of objects to be placed.
     public List<GameObject> objects;
-
+    //Array for grabbing the placement points
     private GameObject[] placements;
+    //List for choosing random placement points
     private List<GameObject> placementPoints = new List<GameObject>();
+    //List of the collectable objects used by another script
     static private List<GameObject> collectableObjects;
 
+    //Get the objects and placement points and randomly place objects in the rooms
     private void Start()
     {
         collectableObjects = objects;
