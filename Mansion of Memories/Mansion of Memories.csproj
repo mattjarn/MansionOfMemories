@@ -688,6 +688,7 @@
     <Compile Include="Assets\Scripts\AssignRooms.cs" />
     <Compile Include="Assets\Scripts\CollectibleTracker.cs" />
     <Compile Include="Assets\Scripts\DelayedFlicker.cs" />
+    <Compile Include="Assets\Scripts\DoorOpeningTrigger.cs" />
     <Compile Include="Assets\Scripts\GenericTrigger.cs" />
     <Compile Include="Assets\Scripts\LibraryRoomTrigger.cs" />
     <Compile Include="Assets\Scripts\LightFlicker.cs" />
