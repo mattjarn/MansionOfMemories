@@ -13,10 +13,10 @@ public class DoorOpeningTrigger : MonoBehaviour
     //The clip you want to play if you want sound
     public AudioSource clip;
 
-    private bool played;
+    private bool played = false;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         timeline = GetComponent<PlayableDirector>();
         clip = GetComponent<AudioSource>();
@@ -27,12 +27,15 @@ public class DoorOpeningTrigger : MonoBehaviour
     //Starts/resumes timeline when player enters. 
     void OnTriggerEnter(Collider c)
     {
-        if(!played)
+        
+        if((!played) && c.gameObject.tag == "Player")
         {
+            print("#Triggered..." + played);
             timeline.Play();
             clip.Play();
+            played = true;
         }
-        played = true;
+       
 
     }
 }

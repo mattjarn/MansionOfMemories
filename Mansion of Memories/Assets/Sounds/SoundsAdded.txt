@@ -28,3 +28,5 @@ PageTurn
 ReversedJack
 LightOff
 LightOn
+Door_Opening
+Scrape_sound_effect
