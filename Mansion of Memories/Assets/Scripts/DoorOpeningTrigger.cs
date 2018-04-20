@@ -25,15 +25,15 @@ public class DoorOpeningTrigger : MonoBehaviour
 
 
     //Starts/resumes timeline when player enters. 
-    void OnTriggerEnter(Collider c)
+    void OnTriggerStay(Collider c)
     {
         
         if((!played) && c.gameObject.tag == "Player")
         {
+            played = true;
             print("#Triggered..." + played);
             timeline.Play();
             clip.Play();
-            played = true;
         }
        
 

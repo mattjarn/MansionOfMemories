@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 114104067955249070}
   - component: {fileID: 54820031148439058}
   - component: {fileID: 59868710305101996}
+  - component: {fileID: 114455535218359524}
   m_Layer: 0
   m_Name: Hall_Room_Door (2)
   m_TagString: Untagged
@@ -532,6 +533,7 @@ GameObject:
   - component: {fileID: 114547755807188326}
   - component: {fileID: 114521367754647438}
   - component: {fileID: 114340642079920644}
+  - component: {fileID: 114849680314233314}
   m_Layer: 0
   m_Name: Hall_Door_R (1)
   m_TagString: Untagged
@@ -1189,6 +1191,7 @@ GameObject:
   - component: {fileID: 114089342092435970}
   - component: {fileID: 54412659856314416}
   - component: {fileID: 59226879928941998}
+  - component: {fileID: 114924417221382044}
   m_Layer: 0
   m_Name: Hall_Door (1)
   m_TagString: Untagged
@@ -1321,6 +1324,8 @@ GameObject:
   - component: {fileID: 114069998170239506}
   - component: {fileID: 54130580570690736}
   - component: {fileID: 59967901902622100}
+  - component: {fileID: 114296304101847398}
+  - component: {fileID: 82046238003408894}
   m_Layer: 0
   m_Name: Hall_Room_Door
   m_TagString: Untagged
@@ -1592,6 +1597,23 @@ GameObject:
   - component: {fileID: 4484272272327122}
   m_Layer: 0
   m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1479425914368652
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4897456274803824}
+  - component: {fileID: 65072458847032006}
+  - component: {fileID: 114463533571348532}
+  m_Layer: 0
+  m_Name: Door_Knock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2452,6 +2474,7 @@ GameObject:
   - component: {fileID: 114701131806713488}
   - component: {fileID: 54103686907242994}
   - component: {fileID: 59617099239775936}
+  - component: {fileID: 114491541730513894}
   m_Layer: 0
   m_Name: Hall_Door
   m_TagString: Untagged
@@ -3505,6 +3528,7 @@ GameObject:
   - component: {fileID: 114761241603493458}
   - component: {fileID: 114944490988845954}
   - component: {fileID: 114611014293635062}
+  - component: {fileID: 114548326762039684}
   m_Layer: 0
   m_Name: Hall_Door_R
   m_TagString: Untagged
@@ -4822,6 +4846,7 @@ Transform:
   - {fileID: 4838231169399358}
   - {fileID: 4960457881032956}
   - {fileID: 4401711852298942}
+  - {fileID: 4897456274803824}
   m_Father: {fileID: 4565536312208522}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6047,6 +6072,19 @@ Transform:
   m_Father: {fileID: 4337985377806014}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 138.07301, z: 0}
+--- !u!4 &4897456274803824
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479425914368652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.539, y: -0, z: 1.526}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4443017240294348}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4899090477004764
 Transform:
   m_ObjectHideFlags: 1
@@ -11838,7 +11876,7 @@ HingeJoint:
   m_GameObject: {fileID: 1995242678608452}
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0, y: 2.9472213, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: -9.215916, y: 2.9351327, z: -5.961544}
   m_UseSpring: 0
@@ -11872,7 +11910,7 @@ HingeJoint:
   m_GameObject: {fileID: 1310762697422476}
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0, y: 2.947222, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: -29.547005, y: 2.935133, z: -3.2089157}
   m_UseSpring: 0
@@ -11906,7 +11944,7 @@ HingeJoint:
   m_GameObject: {fileID: 1740642071744376}
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0, y: 2.947222, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: -9.215916, y: 2.935133, z: -3.206459}
   m_UseSpring: 0
@@ -11940,7 +11978,7 @@ HingeJoint:
   m_GameObject: {fileID: 1020849952599730}
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0, y: 2.947222, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: -15.8089905, y: 2.947222, z: 1.2875595}
   m_UseSpring: 0
@@ -11974,7 +12012,7 @@ HingeJoint:
   m_GameObject: {fileID: 1135945464472424}
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0, y: 2.9472213, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: -29.547003, y: 2.9351325, z: -5.9640026}
   m_UseSpring: 0
@@ -12008,7 +12046,7 @@ HingeJoint:
   m_GameObject: {fileID: 1359933312659426}
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0, y: 2.947222, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: -15.8089905, y: 2.947222, z: -10.382441}
   m_UseSpring: 0
@@ -12972,6 +13010,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4, y: 0.10000013, z: 4}
   m_Center: {x: 0, y: -0.050000027, z: 0}
+--- !u!65 &65072458847032006
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479425914368652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.2504473, y: 3.7440114, z: 3.9599981}
+  m_Center: {x: 0.03648615, y: 1.3720057, z: -0.08564329}
 --- !u!65 &65100675560067316
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -13500,6 +13550,86 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.58, y: 4, z: 0.58}
   m_Center: {x: 0, y: 2, z: -0.00000008940697}
+--- !u!82 &82046238003408894
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1359933312659426}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2cd34748517042f4ca1239d0fb12f0d5, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95091849433192148
 Animator:
   serializedVersion: 3
@@ -14523,6 +14653,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114296304101847398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1359933312659426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!114 &114329922632533336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14560,6 +14713,64 @@ MonoBehaviour:
   customOutlineModels: []
   customOutlineModelPaths: []
   enableSubmeshHighlight: 0
+--- !u!114 &114455535218359524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020849952599730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
+--- !u!114 &114463533571348532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479425914368652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc14be44df857a04b8b66b7826d79a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 82046238003408894}
+--- !u!114 &114491541730513894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1740642071744376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!114 &114504881133713352
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14621,6 +14832,29 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &114548326762039684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1995242678608452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!114 &114548722749883478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14797,6 +15031,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114849680314233314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135945464472424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!114 &114861189054271560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14828,6 +15085,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114924417221382044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310762697422476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipOnTouch: {fileID: 0}
+  strengthOnTouch: 0
+  durationOnTouch: 0
+  intervalOnTouch: 0.05
+  clipOnGrab: {fileID: 8300000, guid: c06a6c901acf7ca4284db9d73fd0fd06, type: 3}
+  strengthOnGrab: 0
+  durationOnGrab: 0
+  intervalOnGrab: 0.05
+  clipOnUse: {fileID: 0}
+  strengthOnUse: 0
+  durationOnUse: 0
+  intervalOnUse: 0.05
 --- !u!114 &114944490988845954
 MonoBehaviour:
   m_ObjectHideFlags: 1
