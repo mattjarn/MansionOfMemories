@@ -3568,6 +3568,9 @@ GameObject:
   - component: {fileID: 23529252781864660}
   - component: {fileID: 65954367956287242}
   - component: {fileID: 54013551739221410}
+  - component: {fileID: 114938304757671256}
+  - component: {fileID: 114546976169688980}
+  - component: {fileID: 114392974898756448}
   m_Layer: 0
   m_Name: SpecialBook
   m_TagString: SpecialBook
@@ -4183,7 +4186,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1231667592775512}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.9550363, y: -2.0060875, z: -7.005801}
+  m_LocalPosition: {x: -13.7546625, y: 4.5647078, z: 2.932725}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4836726715249802}
@@ -16596,6 +16599,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeline: {fileID: 0}
   clip: {fileID: 82246212783484672}
+--- !u!114 &114392974898756448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981881331114370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114402406057865092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16847,6 +16861,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114546976169688980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981881331114370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precisionGrab: 0
+  rightSnapHandle: {fileID: 0}
+  leftSnapHandle: {fileID: 0}
+  throwVelocityWithAttachDistance: 0
+  throwMultiplier: 1
+  onGrabCollisionDelay: 0
 --- !u!114 &114562433145198166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17488,6 +17519,36 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &114938304757671256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981881331114370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableWhenIdle: 0
+  touchHighlightColor: {r: 1, g: 0, b: 0, a: 0}
+  allowedTouchControllers: 0
+  ignoredColliders: []
+  isGrabbable: 1
+  holdButtonToGrab: 1
+  stayGrabbedOnTeleport: 1
+  validDrop: 1
+  grabOverrideButton: 0
+  allowedGrabControllers: 0
+  grabAttachMechanicScript: {fileID: 114546976169688980}
+  secondaryGrabActionScript: {fileID: 114392974898756448}
+  isUsable: 0
+  holdButtonToUse: 1
+  useOnlyIfGrabbed: 0
+  pointerActivatesUseAction: 0
+  useOverrideButton: 0
+  allowedUseControllers: 0
+  usingState: 0
 --- !u!114 &114986441651335252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17782,14 +17843,13 @@ LODGroup:
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LODs:
-  - screenRelativeHeight: 0.25
+  - screenRelativeHeight: 0.01
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 23277747476145788}
   - screenRelativeHeight: 0.01
     fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 0}
+    renderers: []
   m_Enabled: 1
 --- !u!205 &205519916152398168
 LODGroup:
