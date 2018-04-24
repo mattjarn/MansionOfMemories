@@ -46596,7 +46596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rooms:
-  - {fileID: 1888988437351754, guid: 6cca1df81b956344db863638625dc330, type: 2}
+  - {fileID: 1611216451574566, guid: 6ffd6a07be49c314a9fe89184fd50f0d, type: 2}
   - {fileID: 1053833234815288, guid: c50027e9f0d343a4f82a793c570c9666, type: 2}
   - {fileID: 1556144572105304, guid: fdf45864b46b1644592d26369154145a, type: 2}
   - {fileID: 1168404513633038, guid: 38c682f1670d3ad468738ab49c0926fd, type: 2}
