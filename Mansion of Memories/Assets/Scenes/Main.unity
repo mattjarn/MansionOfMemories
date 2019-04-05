@@ -2268,6 +2268,40 @@ Prefab:
       propertyPath: m_Name
       value: Hallway (Cross)
       objectReference: {fileID: 0}
+    - target: {fileID: 4085258212318116, guid: 385a876f67b954849a51dcd4653c489c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 4.294
+      objectReference: {fileID: 0}
+    - target: {fileID: 82046238003408894, guid: 385a876f67b954849a51dcd4653c489c,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82046238003408894, guid: 385a876f67b954849a51dcd4653c489c,
+        type: 2}
+      propertyPath: MinDistance
+      value: 1.0188451
+      objectReference: {fileID: 0}
+    - target: {fileID: 65955118132583126, guid: 385a876f67b954849a51dcd4653c489c,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.0024576
+      objectReference: {fileID: 0}
+    - target: {fileID: 65955118132583126, guid: 385a876f67b954849a51dcd4653c489c,
+        type: 2}
+      propertyPath: m_Center.x
+      value: -0.5543275
+      objectReference: {fileID: 0}
+    - target: {fileID: 65955118132583126, guid: 385a876f67b954849a51dcd4653c489c,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 2.2035306
+      objectReference: {fileID: 0}
+    - target: {fileID: 65955118132583126, guid: 385a876f67b954849a51dcd4653c489c,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 1.1813089
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 385a876f67b954849a51dcd4653c489c, type: 2}
   m_IsPrefabParent: 0
